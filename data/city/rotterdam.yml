@@ -1,0 +1,23 @@
+name: Rotterdam
+"@type": City
+description: >
+  Rotterdam is een havenstad in het westen van Nederland, in de provincie Zuid-Holland. Met 587.960 inwoners (1 januari 2020) is het de op een na grootste stad van Nederland qua inwoneraantal, na Amsterdam. De metropoolregio Rotterdam Den Haag telt meer dan 2,3 miljoen inwoners.
+
+  Rotterdam dankt zijn naam aan een dam in de rivier de Rotte. De stad ligt aan de Nieuwe Maas, een van de rivieren in de delta die gevormd wordt door de Rijn en de Maas. De haven van Rotterdam was lange tijd de grootste ter wereld en is nog altijd de grootste en belangrijkste van Europa. Het havengebied strekt zich uit over een lengte van 40 kilometer[2] en is een belangrijk logistiek en economisch centrum. Mede vanwege de havenindustrie heeft Rotterdam het imago van een arbeidersstad en kent de stad een zeer diverse bevolking.
+hasMap: https://www.google.com/maps?cid=5920469535069981573
+containedInPlace:
+  - "@id": https://data.kg0.nl/entity/country/nederland
+  - "@id": https://data.kg0.nl/entity/state/gelderland
+sameAs:
+  - https://www.wikidata.org/wiki/Q34370
+  - https://nl.wikipedia.org/wiki/Rotterdam
+  - https://www.geonames.org/2759706/apeldoorn.html
+  - https://viaf.org/viaf/123139768/
+  - https://bag.basisregistraties.overheid.nl/bag/id/woonplaats/3086
+  - https://www.google.com/maps?cid=5920469535069981573
+  - http://vocab.getty.edu/page/tgn/7006792
+  - https://www.google.com/search?kgmid=/m/06hdk
+  - https://g.co/kg/m/06hdk
+  - kg:/m/06hdk
+url:
+  - https://www.rotterdam.nl

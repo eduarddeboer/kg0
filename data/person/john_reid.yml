@@ -1,0 +1,32 @@
+name: John Reid
+"@type": Person
+alternateName:
+  - Rijdende Rechter
+  - De Rijdende Rechter
+gender: http://schema.org/Male
+birthDate: 1968-02-19
+birthPlace:
+  "@id": https://data.kg0.nl/entity/city/utrecht
+image: https://kro-ncrv.nl/sites/kro-ncrv-nl/files/styles/banner_lg/public/media/images/2017-03-persfoto-rijdende-rechter-3314_0.jpg
+knowsLanguage:
+  - "@id": https://data.kg0.nl/entity/language/nederlands
+    "@type": http://schema.org/Language
+  - "@id": https://data.kg0.nl/entity/language/engels
+    "@type": http://schema.org/Language
+knows:
+  - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
+sameAs:
+  - https://nl.wikipedia.org/wiki/John_Reid_(rechter)
+  - https://www.wikidata.org/wiki/Q22955229
+  - https://viaf.org/viaf/286464696/
+  - https://isni.oclc.org/xslt/DB=1.2/CMD?ACT=SRCH&IKT=8006&TRM=ISN%3A0000%200001%202080%207264
+  - https://d-nb.info/gnd/141688181
+  - https://www.worldcat.org/identities/lccn-no2019083258/
+  - https://data.europeana.eu/agent/base/45526
+  - https://www.imdb.com/name/nm9223747
+  - https://www.linkedin.com/in/john-reid-3464225a/
+  - https://www.gids.tv/onderwerp/john-reid
+  - https://g.co/kgs/aS71Yp
+  - https://www.google.com/search?kgmid=/m/0hznpfd
+  - https://g.co/kg/m/0hznpfd
+  - kg:m/0hznpfd

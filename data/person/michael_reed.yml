@@ -1,0 +1,10 @@
+name: Michael Reed
+"@type": Person
+gender: http://schema.org/Male
+knows:
+  - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
+knowsLanguage:
+  - "@id": https://data.kg0.nl/entity/language/nederlands
+    "@type": http://schema.org/Language
+  - "@id": https://data.kg0.nl/entity/language/engels
+    "@type": http://schema.org/Language

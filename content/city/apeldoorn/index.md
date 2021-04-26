@@ -1,0 +1,4 @@
+---
+slug: apeldoorn
+schematype: City
+---

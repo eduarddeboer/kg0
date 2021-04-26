@@ -1,0 +1,21 @@
+name: Mart Stevens
+"@type": Person
+firstName: Martin
+familyName: Stevens
+gender: http://schema.org/Male
+knowsLanguage:
+  - "@id": https://data.kg0.nl/entity/language/nederlands
+    "@type": http://schema.org/Language
+  - "@id": https://data.kg0.nl/entity/language/engels
+    "@type": http://schema.org/Language
+  - "@id": https://data.kg0.nl/entity/language/duits
+    "@type": http://schema.org/Language
+knows:
+  - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
+sameAs:
+  - https://www.linkedin.com/in/martstevens/
+  - https://twitter.com/martstevens
+worksFor:
+  - https://data.kg0.nl/entity/localbusiness/mart_stevens_projectfotografie
+url:
+  - https://www.martstevens.com/index/G0000Jy0ocSP6NDI

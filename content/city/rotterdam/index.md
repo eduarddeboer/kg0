@@ -1,0 +1,4 @@
+---
+slug: rotterdam
+schematype: City
+---

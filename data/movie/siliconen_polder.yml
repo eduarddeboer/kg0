@@ -1,6 +1,6 @@
 name: Siliconen Polder
 "@type": Movie
-actors:
+actor:
   - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
 director:
   "@id": https://data.kg0.nl/entity/person/jurgen_tegel

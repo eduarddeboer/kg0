@@ -21,6 +21,10 @@ knowsLanguage:
   - "@id": https://data.kg0.nl/entity/language/frans
     "@type": http://schema.org/Language
 knows:
+  - "@id": https://data.kg0.nl/entity/person/mart_stevens
+  - "@id": https://data.kg0.nl/entity/person/evan_buytendijk
+  - "@id": https://data.kg0.nl/entity/person/michael_reed
+  - "@id": https://data.kg0.nl/entity/person/john_reid
   - "@id": https://data.fysiokg.nl/entity/person/piet_douma
   - "@id": https://data.fysiokg.nl/entity/person/carmen_van_eijck_wilmink
   - "@id": https://data.fysiokg.nl/entity/person/olivier_blaauw
