@@ -1,0 +1,4 @@
+---
+slug: frans
+schematype: Language
+---

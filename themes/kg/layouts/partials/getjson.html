@@ -1,0 +1,19 @@
+{{- /* Set initial variables */ -}}
+{{- $page := .Page -}}
+{{- $site := .Site -}}
+{{- $baseurl := $site.BaseURL -}}
+{{- $data := $site.Data -}}
+
+{{- $entitytype := lower $page.Params.schematype -}}
+{{- $entitydir  := index $data $entitytype -}}
+{{- $entity     := index $entitydir $page.Params.Slug -}}
+{{- range $field, $value := $entity -}}
+  {{- if eq $field "name" -}}
+    {{- $page.Scratch.Set "entity:name" $value -}}
+  {{- end -}}
+  {{- if eq $field "@type" -}}
+    {{- $page.Scratch.Set "entity:type" $value -}}
+  {{- end -}}
+  {{- $page.Scratch.SetInMap $entitytype $field $value -}}
+{{- end -}}
+{{- /* $page.Scratch.SetInMap $entitytype "@id" (replace .Permalink ".html" "") */ -}}

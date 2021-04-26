@@ -1,0 +1,18 @@
+name: Evan Buytendijk
+"@type": Person
+gender: http://schema.org/Male
+knowsLanguage:
+  - "@id": https://data.kg0.nl/entity/language/nederlands
+    "@type": http://schema.org/Language
+  - "@id": https://data.kg0.nl/entity/language/engels
+    "@type": http://schema.org/Language
+  - "@id": https://data.kg0.nl/entity/language/duits
+    "@type": http://schema.org/Language
+knows:
+  - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
+sameAs:
+  - https://www.linkedin.com/in/evan-buytendijk-71a6761b/
+  - https://www.wikidata.org/wiki/Q106396649
+  - https://www.google.com/search?kgmid=/g/11n87qh2r8
+  - https://g.co/kg/g/11n87qh2r8
+  - kg:/g/11n87qh2r8

@@ -1,0 +1,25 @@
+name: Jurgen Tegel
+"@type": Person
+gender: http://schema.org/Male
+knowsLanguage:
+  - "@id": https://data.kg0.nl/entity/language/nederlands
+    "@type": http://schema.org/Language
+  - "@id": https://data.kg0.nl/entity/language/engels
+    "@type": http://schema.org/Language
+  - "@id": https://data.kg0.nl/entity/language/duits
+    "@type": http://schema.org/Language
+knows:
+  - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
+sameAs:
+  - https://www.linkedin.com/in/jurgentegel/
+  - https://twitter.com/tegeljurgen
+  - https://www.imdb.com/name/nm8410432/
+  - https://nl.pinterest.com/jtegel/
+  - https://nl-nl.facebook.com/jurgen.tegel
+  - https://www.wikidata.org/wiki/Q27041787
+  - https://www.youtube.com/channel/UCZwoFfh6QNw1ZB007F2t8-Q
+  - https://www.apollo.io/people/Jurgen/Tegel/54a327ba7468692e715c6c58
+  - https://www.google.com/search?kgmid=/g/11c1vrnfhf
+  - https://g.co/kg/g/11c1vrnfhf
+  - kg:/g/11c1vrnfhf
+  - https://g.co/kgs/6ky7Qa

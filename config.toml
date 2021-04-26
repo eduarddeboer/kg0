@@ -1,0 +1,30 @@
+baseURL = "https://data.kg0.nl/"
+languageCode = "nl"
+title = "Knowledge Graph"
+theme = "kg"
+DefaultContentLanguage = "nl"
+
+Paginate = 100
+disableKinds = ["taxonomy", "taxonomyTerm", "section", "home" ]
+uglyURLs = true
+
+[outputs]
+  home = [ "html", "json" ]
+  page = [ "html", "json" ]
+
+[outputFormats.html]
+  isPlainText = true
+  notAlternative = true
+  path = "/entity"
+
+[outputFormats.json]
+  mediaType = "application/json"
+  isPlainText = true
+  notAlternative = true
+  path = "/entity"
+
+[outputFormats.rdf]
+  mediaType = "application/xml"
+  isPlainText = true
+  notAlternative = true
+  path = "/entity"

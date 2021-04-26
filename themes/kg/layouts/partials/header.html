@@ -1,0 +1,8 @@
+{{- $page := .Page -}}
+{{- $type := $page.Scratch.Get "entity:type" -}}
+{{- $name := $page.Scratch.Get "entity:name" -}}
+<h1>{{ $name }} ({{ $type }})</h1>
+
+{{- $id := replace .Permalink ".html" "" -}}
+{{- .Page.Scratch.Set "@id" $id -}}
+<h2><a href="{{- $id -}}">{{- $id -}}</a></h2>

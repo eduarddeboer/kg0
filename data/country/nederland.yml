@@ -1,0 +1,12 @@
+name: Nederland
+"@type": Country
+containsPlace:
+  - "@id": https://data.kg0.nl/entity/city/zwartsluis
+  - "@id": https://data.kg0.nl/entity/city/apeldoorn
+hasMap: https://www.google.com/maps?cid=12943756335953808031
+sameAs:
+  - https://www.wikidata.org/wiki/Q55
+  - https://www.geonames.org/countries/NL/netherlands.html
+  - https://www.google.com/maps?cid=12943756335953808031
+  - https://www.google.com/search?kgmid=/m/059j2
+  - https://g.co/kg/m/059j2

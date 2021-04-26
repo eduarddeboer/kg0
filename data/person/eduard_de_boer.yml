@@ -1,0 +1,44 @@
+name: Eduard de Boer
+"@type": Person
+givenName: Everhardus Lidanus Romild
+familyName: de Boer
+"birthdate": "1968-02-23"
+"birthPlace":
+  "@id": https://data.kg0.nl/entity/city/zwartsluis
+gender: https://schema.org/Male
+identifier:
+  - kg:/g/11f0mj848l
+  - /g/11f0mj848l
+description: Eduard de Boer is een digitale duizendpoot.
+disambiguatingDescription:
+knowsLanguage:
+  - "@id": https://data.kg0.nl/entity/language/nederlands
+    "@type": http://schema.org/Language
+  - "@id": https://data.kg0.nl/entity/language/engels
+    "@type": http://schema.org/Language
+  - "@id": https://data.kg0.nl/entity/language/duits
+    "@type": http://schema.org/Language
+  - "@id": https://data.kg0.nl/entity/language/frans
+    "@type": http://schema.org/Language
+knows:
+  - "@id": https://data.fysiokg.nl/entity/person/piet_douma
+  - "@id": https://data.fysiokg.nl/entity/person/carmen_van_eijck_wilmink
+  - "@id": https://data.fysiokg.nl/entity/person/olivier_blaauw
+  - "@id": https://data.fysiokg.nl/entity/person/bas_van_baaden
+  - "@id": https://data.fysiokg.nl/entity/person/frank_mulder
+subjectOf:
+  - "@id": https://data.kg0.nl/entity/movie/siliconen_polder
+    "@type": http://schema.org/Movie
+sameAs:
+  - https://nl.linkedin.com/in/eduarddeboer/
+  - https://www.imdb.com/name/nm8412574/
+  - https://www.instagram.com/eduarddeboer/
+  - https://www.pinterest.nl/eduarddeboer/
+  - https://www.google.com/maps/contrib/105026685288268747989
+  - https://www.brightlocal.com/author/eduarddeboer/
+  - https://www.google.com/search?kgmid=/g/11f0mj848l
+  - https://whitespark.ca/blog/author/eduarddeboer/
+  - https://nl.gravatar.com/elrdeboer
+  - https://www.wikidata.org/wiki/Q65610641
+  - https://foursquare.com/elrdeboer
+  - https://twitter.com/tweeteduard

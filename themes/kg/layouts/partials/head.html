@@ -1,0 +1,13 @@
+{{- partial "getjson.html" . -}}
+{{- $page := .Page -}}
+{{- $type := $page.Scratch.Get "entity:type" -}}
+{{- $name := $page.Scratch.Get "entity:name" -}}
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{{ $name }} ({{ $type }})</title>
+<meta name="description" content="{{ $name }} ({{ $type }})" />
+{{- $jsonfile := replace .Permalink ".html" ".json" -}}
+<link rel="alternate" type="application/ld+json" href="{{- $jsonfile -}}" />
+{{- $sass := resources.Get "sass/main.scss" -}}
+{{- $style := $sass | toCSS | minify -}}
+<style type="text/CSS">{{- $style.Content | safeCSS -}}</style>

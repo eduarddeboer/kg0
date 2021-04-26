@@ -1,0 +1,64 @@
+$font-stack:      -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
+$font-color:      #444
+
+$thead-bg-color:  #666
+$table-bg-color:  #eee
+$table-b-color:   #000
+$thead-f-color:   #fff
+
+$h1:              1.8em
+$h2:              1.2em
+$h3:              1.4em
+
+$th-size:        16px
+
+*
+  font-family:    $font-stack
+  color:          $font-color
+
+h1,h2,h3
+  font-family: $font-stack
+  font-weight: 700
+  color: $font-color
+  margin: 0px
+  line-height: 1.6em
+
+h1
+  font-size: $h1
+
+h2
+  font-size: $h2
+  margin-bottom: 0.5em
+
+h3
+  font-size: $h3
+
+table
+  border-spacing: 1px
+  border-color: $table-b-color
+  width: 100%
+
+thead
+  background-color: $thead-bg-color
+  color: $thead-f-color
+
+th
+  font-size: $th-size
+  padding: 10px
+  color: $thead-f-color
+  text-align: left
+  padding-left: 5px
+
+td
+  font-size: $th-size
+  padding: 5px
+  color: $font-color
+  background-color: $table-bg-color
+  vertical-align: top
+  line-height: 1.8em
+
+a
+  color: blue
+
+footer
+  margin-top: 20px

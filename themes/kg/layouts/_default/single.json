@@ -1,0 +1,39 @@
+{{- $page := .Page -}}
+{{- $schema := "http://schema.org/" -}}
+{{- partial "getjson.html" . -}}
+{{- $entity    := $page.Scratch.Get (lower $page.Params.schematype) -}}
+{{- $setvalue  := "" -}}
+{{- $fieldname := "" -}}
+{{- $id        := $page.Scratch.Get "@id" -}}
+
+{{- range $field, $value := $entity -}}
+  {{- $fieldname := $field -}}
+  {{- $setvalue  := $value -}}
+  {{- if eq $field "@type" -}}
+    {{- $setvalue := print $schema $value -}}
+    {{- $page.Scratch.SetInMap "json" $fieldname $setvalue -}}
+  {{- else -}}
+    {{- if eq $field "sameAs" -}}
+      {{- $sameas := slice -}}
+      {{- range $value -}}
+        {{- $sameas = $sameas | append . -}}
+      {{- end -}}
+      {{- $page.Scratch.SetInMap "json" (print $schema "sameAs") $sameas -}}
+    {{- else -}}
+      {{- if eq $field "url" -}}
+        {{- $url := slice -}}
+        {{- range $value -}}
+          {{- $url = $url | append . -}}
+        {{- end -}}
+        {{- $page.Scratch.SetInMap "json" (print $schema "url") $url -}}
+      {{- else -}}
+        {{- $fieldname := print $schema $field -}}
+        {{- $page.Scratch.SetInMap "json" $fieldname $setvalue -}}
+      {{- end -}}
+    {{- end -}}
+
+  {{- end -}}
+
+{{- end -}}
+
+{{- $page.Scratch.Get "json" | jsonify -}}

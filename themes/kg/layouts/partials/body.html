@@ -1,0 +1,81 @@
+{{- $page := .Page -}}
+{{- $schema := "http://schema.org/" -}}
+{{- $entity    := $page.Scratch.Get (lower $page.Params.schematype) -}}
+{{- $setvalue  := "" -}}
+{{- $fieldname := "" -}}
+{{- $id        := $page.Scratch.Get "@id" -}}
+  <table class="">
+    <thead>
+      <tr>
+        <th>Property</th>
+        <th>Value</th>
+      </tr>
+{{- range $field, $value := $entity -}}
+  {{- $fieldname := $field -}}
+  {{- $setvalue  := $value -}}
+
+  {{- if eq $field "@type" -}}
+    <tr>
+      <td><a href="https://www.w3.org/1999/02/22-rdf-syntax-ns#type">rdf:type</a></td>
+      <td about="{{ $id }}"><a rel="rdf:type" href="{{- $schema -}}{{- . -}}">schema:{{ . }}</a></td>
+    </tr>
+    {{- $setvalue := print $schema $value -}}
+    {{- $page.Scratch.SetInMap "json" $fieldname $setvalue -}}
+  {{- end -}}
+
+  {{- $thisvalue := . }}
+  {{- $type := (printf "%T" $value) -}}
+  {{- if eq $type "[]interface {}" -}}
+    {{- range $thisvalue -}}
+      {{- if or (in . "http://") (in . "https") -}}
+        <tr>
+          <td><a href="http://schema.org/{{- $field -}}">schema:{{- $field -}}</a></td>
+          <td about="{{- $id -}}"><a rel="schema:{{- $field -}}" href="{{- . -}}">{{- . -}}</a></td>
+        </tr>
+        {{- if eq $field "sameAs" -}}
+        <tr>
+          <td><a href="http://www.w3.org/2002/07/owl#sameAs">owl:{{- $field -}}</a></td>
+          <td about="{{- $id -}}"><a rel="owl:{{- $field -}}" href="{{- . -}}">{{- . -}}</a></td>
+        </tr>
+        {{- end -}}
+        {{- else -}}
+        <tr>
+          <td><a href="http://schema.org/{{- $field -}}">schema:{{- $field -}}</a></td>
+          <td about="{{- $id -}}">
+            {{- $type := (printf "%T" .) -}}
+            {{- if eq $type "map[string]interface {}" -}}
+              {{- range $nfield, $nvalue := . -}}
+                {{- if eq $nfield "@id" -}}
+                  <a rel="schema:{{- $field -}}" href="{{- $nvalue -}}">{{- $nvalue -}}</a>
+                {{- end -}}
+              {{- end -}}
+            {{- else -}}
+            <span property="schema:{{- $field -}}" datatype="xsd:string">"{{ . }}"^^xsd:string</span>
+            {{- end -}}
+          </td>
+        </tr>
+        {{- end -}}
+    {{- end -}}
+  {{- else -}}
+    {{- if $value -}}
+      <tr><td><a href="http://schema.org/{{- $field -}}">schema:{{- $field -}}</a></td>
+        {{- if or (in . "http://") (in . "https") -}}
+          <td about="{{- $id -}}"><a rel="schema:{{- $field -}}" href="{{- . -}}">{{- . -}}</a></td>
+        {{- else -}}
+          <td about="{{- $id -}}">
+            {{- $type := (printf "%T" .) -}}
+            {{- if eq $type "map[string]interface {}" -}}
+              {{- range $nfield, $nvalue := . -}}
+                <a rel="schema:{{- $field -}}" href="{{- $nvalue -}}">{{- $nvalue -}}</a>
+              {{- end -}}
+            {{- else -}}
+              <span property="schema:{{- $field -}}" datatype="xsd:string">"{{ . }}"^^xsd:string</span>
+            {{- end -}}
+          </td>
+        {{- end -}}
+      </tr>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+    </thead>
+  </table>
