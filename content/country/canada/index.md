@@ -1,0 +1,4 @@
+---
+slug: canada
+schematype: Country
+---

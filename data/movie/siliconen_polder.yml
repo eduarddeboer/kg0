@@ -2,6 +2,7 @@ name: Siliconen Polder
 "@type": Movie
 actor:
   - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
+  - "@id": https://data.kg0.nl/entity/person/jurgen_tegel
 director:
   "@id": https://data.kg0.nl/entity/person/jurgen_tegel
   http://schema.org/name: Jurgen Tegel
@@ -9,7 +10,6 @@ dateCreated: 2016-09-15
 image: https://img.youtube.com/vi/hcswKd9PHaM/maxresdefault.jpg
 sameAs:
   - https://www.imdb.com/title/tt6030294/
-  - https://www.google.com/search?kgmid=/g/11cs4knhbk
+  - https://www.google.com/search?kgmid=/g/11cs4knhbk&kponly
   - https://g.co/kg/g/11cs4knhbk
-  - kg:/g/11cs4knhbk
   - https://www.youtube.com/watch?v=hcswKd9PHaM

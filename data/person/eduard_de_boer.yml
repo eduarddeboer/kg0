@@ -6,9 +6,6 @@ familyName: de Boer
 "birthPlace":
   "@id": https://data.kg0.nl/entity/city/zwartsluis
 gender: https://schema.org/Male
-identifier:
-  - kg:/g/11f0mj848l
-  - /g/11f0mj848l
 description: Eduard de Boer is een digitale duizendpoot.
 disambiguatingDescription:
 knowsLanguage:
@@ -25,6 +22,13 @@ knows:
   - "@id": https://data.kg0.nl/entity/person/evan_buytendijk
   - "@id": https://data.kg0.nl/entity/person/michael_reed
   - "@id": https://data.kg0.nl/entity/person/john_reid
+  - "@id": https://data.kg0.nl/entity/person/darren_shaw
+  - "@id": https://data.kg0.nl/entity/person/john_mueller
+  - "@id": https://data.kg0.nl/entity/person/joy_hawkins
+  - "@id": https://data.kg0.nl/entity/person/mike_blumenthal
+  - "@id": https://data.kg0.nl/entity/person/phil_rozek
+  - "@id": https://data.kg0.nl/entity/person/michael_browning
+  - "@id": https://data.kg0.nl/entity/person/ron_steenkist
   - "@id": https://data.fysiokg.nl/entity/person/piet_douma
   - "@id": https://data.fysiokg.nl/entity/person/carmen_van_eijck_wilmink
   - "@id": https://data.fysiokg.nl/entity/person/olivier_blaauw
@@ -33,6 +37,14 @@ knows:
 subjectOf:
   - "@id": https://data.kg0.nl/entity/movie/siliconen_polder
     "@type": http://schema.org/Movie
+  - "@id": https://www.youtube.com/watch?v=Q7lGPXx9dTA
+    "@type": http://schema.org/Movie
+    url: https://www.youtube.com/watch?v=Q7lGPXx9dTA
+    name: The Search Geeks Speak; Local SEO 2014
+  - "@id": https://www.youtube.com/watch?v=HPth3iXHO7Y
+    "@type": http://schema.org/Movie
+    url: https://www.youtube.com/watch?v=HPth3iXHO7Y
+    name: Understanding Google Business View for Local SEO
 sameAs:
   - https://nl.linkedin.com/in/eduarddeboer/
   - https://www.imdb.com/name/nm8412574/
@@ -43,7 +55,7 @@ sameAs:
   - https://beta.wikiversity.org/wiki/User:EduarddeBoer
   - https://www.allround-fotografie.com/over-ons/eduard/#person
   - https://www.brightlocal.com/author/eduarddeboer/
-  - https://www.google.com/search?kgmid=/g/11f0mj848l
+  - https://www.google.com/search?kgmid=/g/11f0mj848l&kponly
   - https://g.co/kg/g/11f0mj848l
   - https://whitespark.ca/blog/author/eduarddeboer/
   - https://nl.gravatar.com/elrdeboer
