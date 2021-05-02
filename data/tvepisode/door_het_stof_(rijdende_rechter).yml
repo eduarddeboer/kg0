@@ -6,6 +6,7 @@ description: >
 url:
   - https://www.npostart.nl/de-rijdende-rechter/06-06-2019/KN_1708125
 partOfSeries: https://kro-ncrv.nl/programmas/de-rijdende-rechter
+image: https://images.npo.nl/header/2560x1440/1230714.jpg
 name: "'Door het stof' (De Rijdende Rechter)"
 actor:
   - "@id": https://data.kg0.nl/entity/person/eduard_de_boer

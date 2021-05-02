@@ -47,17 +47,17 @@ subjectOf:
     "@type": http://schema.org/Movie
     url: https://www.youtube.com/watch?v=HPth3iXHO7Y
     name: Understanding Google Business View for Local SEO
-  - "@id": https://data.kg0.nl/entity/tvepisode/door_het_stof_(rijdende_rechter)
+  - "@id": https://data.kg0.nl/entity/tvepisode/door_het_stof_rijdende_rechter
     "@type": http://schema.org/TVEpisode
-  - "@id": https://data.kg0.nl/entity/tvepisode/gevloerd_(rijdende_rechter)
+  - "@id": https://data.kg0.nl/entity/tvepisode/gevloerd_rijdende_rechter
     "@type": http://schema.org/TVEpisode
-  - "@id": https://data.kg0.nl/entity/tvepisode/laat_je_niet_kisten_(rijdende_rechter)
+  - "@id": https://data.kg0.nl/entity/tvepisode/laat_je_niet_kisten_rijdende_rechter
     "@type": http://schema.org/TVEpisode
-  - "@id": https://data.kg0.nl/entity/tvepisode/schutting_van_de_rekening_(rijdende_rechter)
+  - "@id": https://data.kg0.nl/entity/tvepisode/schutting_van_de_rekening_rijdende_rechter
     "@type": http://schema.org/TVEpisode
-  - "@id": https://data.kg0.nl/entity/tvepisode/t_heen_en_weer_krijgen_(rijdende_rechter)
+  - "@id": https://data.kg0.nl/entity/tvepisode/t_heen_en_weer_krijgen_rijdende_rechter
     "@type": http://schema.org/TVEpisode
-  - "@id": https://vazz.nl/ondernemer-eduard-de-boer-reputatiecoachingnl-in-the-spotlight/
+  - "@id": https://vazz.nl/ondernemer-eduard-de-boer-reputatiecoachingnl-in-the-spotlight/#webpage
     "@type": http://schema.org/Article
     datePublished: 2016-06-25
     description: Vazz in gesprek met Eduard de Boer over zijn bedrijf Reputatiecoaching. Eduard de Boer is reputatiecoach en houdt zich bezig met het verbeteren van de online reputatie en vindbaarheid van bedrijven. Eduard doet niks aan marketing of advertenties. ‘De klanten weten me door mijn podcasts goed te vinden’ zegt hij.
