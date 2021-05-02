@@ -8,6 +8,7 @@ familyName: de Boer
 gender: https://schema.org/Male
 description: Eduard de Boer is een digitale duizendpoot.
 disambiguatingDescription:
+image: https://www.gravatar.com/avatar/a218861c60b4a06728ed76086a0bf335.jpg?s=1200
 knowsLanguage:
   - "@id": https://data.kg0.nl/entity/language/nederlands
     "@type": http://schema.org/Language
@@ -42,11 +43,9 @@ subjectOf:
   - "@id": https://www.youtube.com/watch?v=Q7lGPXx9dTA
     "@type": http://schema.org/Movie
     url: https://www.youtube.com/watch?v=Q7lGPXx9dTA
-    name: The Search Geeks Speak; Local SEO 2014
   - "@id": https://www.youtube.com/watch?v=HPth3iXHO7Y
     "@type": http://schema.org/Movie
     url: https://www.youtube.com/watch?v=HPth3iXHO7Y
-    name: Understanding Google Business View for Local SEO
   - "@id": https://data.kg0.nl/entity/tvepisode/door_het_stof_rijdende_rechter
     "@type": http://schema.org/TVEpisode
   - "@id": https://data.kg0.nl/entity/tvepisode/gevloerd_rijdende_rechter
