@@ -47,15 +47,15 @@ subjectOf:
     "@type": http://schema.org/Movie
     url: https://www.youtube.com/watch?v=HPth3iXHO7Y
     name: Understanding Google Business View for Local SEO
-  - "@id": https://data.kg0.nl/entity/TVEpisode/door_het_stof_(rijdende_rechter)
+  - "@id": https://data.kg0.nl/entity/tvepisode/door_het_stof_(rijdende_rechter)
     "@type": http://schema.org/TVEpisode
-  - "@id": https://data.kg0.nl/entity/TVEpisode/gevloerd_(rijdende_rechter)
+  - "@id": https://data.kg0.nl/entity/tvepisode/gevloerd_(rijdende_rechter)
     "@type": http://schema.org/TVEpisode
-  - "@id": https://data.kg0.nl/entity/TVEpisode/laat_je_niet_kisten_(rijdende_rechter)
+  - "@id": https://data.kg0.nl/entity/tvepisode/laat_je_niet_kisten_(rijdende_rechter)
     "@type": http://schema.org/TVEpisode
-  - "@id": https://data.kg0.nl/entity/TVEpisode/schutting_van_de_rekening_(rijdende_rechter)
+  - "@id": https://data.kg0.nl/entity/tvepisode/schutting_van_de_rekening_(rijdende_rechter)
     "@type": http://schema.org/TVEpisode
-  - "@id": https://data.kg0.nl/entity/TVEpisode/t_heen_en_weer_krijgen_(rijdende_rechter)
+  - "@id": https://data.kg0.nl/entity/tvepisode/t_heen_en_weer_krijgen_(rijdende_rechter)
     "@type": http://schema.org/TVEpisode
   - "@id": https://vazz.nl/ondernemer-eduard-de-boer-reputatiecoachingnl-in-the-spotlight/
     "@type": http://schema.org/Article
