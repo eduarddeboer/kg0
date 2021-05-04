@@ -1,0 +1,34 @@
+name: Hulp met Marketing
+"@type": LocalBusiness
+description: >
+  Heb jij hulp nodig met Online Marketing? Wil je hoger komen in Google of ben je op zoek naar een nieuwe website? Dan ben je bij Hulp Met Marketing Hilversum aan het juiste adres. Dagelijks helpen wij met veel plezier ondernemers uit Hilversum en omstreken met vraagstukken op het gebied van online marketing. Ben je nog helemaal nieuw op het gebied van online marketing? Geen probleem. Dan leggen wij je graag vrijblijvend uit hoe je kunt starten.
+disambiguatingDescription: >
+  Heb jij hulp nodig met Online Marketing? Wil je hoger komen in Google of ben je op zoek naar een nieuwe website? Dan ben je bij Hulp Met Marketing Hilversum aan het juiste adres. Dagelijks helpen wij met veel plezier ondernemers uit Hilversum en omstreken met vraagstukken op het gebied van online marketing. Ben je nog helemaal nieuw op het gebied van online marketing? Geen probleem. Dan leggen wij je graag vrijblijvend uit hoe je kunt starten.
+mainEntityOfPage: https://www.hulpmetmarketing.nl/
+hasMap: https://www.google.com/maps?cid=3929805574344610877
+address:
+  "@id": https://data.kg0.nl/entity/postaladdress/hulp_met_marketing
+telephone: +31 628509910
+isicv4: 737311
+naics: 519130
+founder:
+  "@id": https://data.kg0.nl/entity/person/danny_moons
+foundingLocation:
+  "@id": https://data.fysiokg.nl/entity/city/hilversum
+foundingDate: 2016
+legalName: "Hulp met Marketing"
+areaServed:
+  - "@id": https://data.kg0.nl/entity/country/nederland
+    "@type": http://schema.org/Country
+employee:
+  "@id": https://data.kg0.nl/entity/person/danny_moons
+sameAs:
+  - https://www.facebook.com/hulpmetmarketing/
+  - https://www.instagram.com/hulpmetmarketing/
+  - https://www.linkedin.com/company/hulp-met-marketing/
+  - https://www.google.com/maps?cid=3929805574344610877
+  - https://www.google.com/search?kgmid=/g/11f3_vm8sc
+  - https://www.allebiz.nl/hulp-met-marketing-06-28509910
+  - https://www.yelp.com/biz/hulp-met-marketing-hilversum
+url:
+  - https://www.hulpmetmarketing.nl/

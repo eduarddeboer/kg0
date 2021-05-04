@@ -7,6 +7,7 @@ knows:
   - "@id": https://data.kg0.nl/entity/person/joy_hawkins
   - "@id": https://data.kg0.nl/entity/person/phil_rozek
   - "@id": https://data.kg0.nl/entity/person/mike_blumenthal
+  - "@id": https://data.kg0.nl/entity/person/bill_slawski
   - "@id": https://data.kg0.nl/entity/person/terry_van_horne
 worksFor:
   - "@id": https://data.kg0.nl/entity/organization/whitespark
