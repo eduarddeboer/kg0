@@ -2,7 +2,8 @@ name: Whitespark
 "@type": Organization
 description: Whitespark is an online marketing service provider, based in Alberta, Canada. Founded in 2005, they offer local SEO services and tools to multi-location businesses, agencies, and enterprises. Whitespark focuses primarily on citation building, citation audit and clean-up, and rank tracking tools, amongst others.
 founder:
-  "@id": https://data.fysiokg.nl/entity/person/darren_shaw
+  "@id": https://data.kg0.nl/entity/person/darren_shaw
 foundingDate: 2005
 foundingLocation:
   "@id": https://data.kg0.nl/entity/city/edmonton_canada
+url: https://www.whitespark.ca/

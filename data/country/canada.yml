@@ -1,2 +1,4 @@
 name: Canada
 "@type": Country
+sameAs:
+  - https://www.bbc.co.uk/things/4bc7e064-44b5-4f17-870c-8bf927f0c9bd

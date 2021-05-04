@@ -7,6 +7,7 @@ knows:
   - "@id": https://data.kg0.nl/entity/person/joy_hawkins
   - "@id": https://data.kg0.nl/entity/person/phil_rozek
   - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
+  - "@id": https://data.kg0.nl/entity/person/terry_van_horne
 sameAs:
   - https://www.wikidata.org/wiki/Q106695828
   - https://twitter.com/mblumenthal

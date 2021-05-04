@@ -1,0 +1,28 @@
+name: United States of America
+"@type": Country
+description: 
+disambiguatingDescription:
+hasMap: https://maps.google.com/?cid=2034423694542944066
+containsPlace:
+  - "@id": https://mbl.kg0.nl/entity/state/ny
+sameAs:
+  - https://en.wikipedia.org/wiki/United_States
+  - https://www.wikidata.org/wiki/Q30
+  - http://vocab.getty.edu/page/tgn/7012149
+  - https://maps.google.com/?cid=2034423694542944066
+  - http://data.thenextweb.com/tnw/entity/united_states_of_america
+  - https://dbpedia.org/page/United_States
+  - https://www.geonames.org/6252001/united-states.html
+  - https://www.openstreetmap.org/relation/148838
+  - https://babelnet.org/synset?id=bn:00003341n&lang=EN
+  - https://www.britannica.com/place/United-States
+  - https://www.google.com/search?kgmid=/m/09c7w0
+  - https://g.co/kg/m/09c7w0
+  - https://www.facebook.com/USAGov/
+  - https://twitter.com/USAgov
+  - https://www.youtube.com/channel/UCcS5Ar_-1AWByLfBmJOG8Xg
+  - https://www.instagram.com/usagov/
+  - https://kbpedia.org/knowledge-graph/reference-concept/?uri=UnitedStatesOfAmerica
+  - http://vocabularies.unesco.org/browser/thesaurus/en/page/concept806
+url:
+  - https://www.usa.gov/

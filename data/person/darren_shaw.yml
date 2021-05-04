@@ -10,7 +10,6 @@ knows:
   - "@id": https://data.kg0.nl/entity/person/terry_van_horne
 worksFor:
   - "@id": https://data.kg0.nl/entity/organization/whitespark
-    startDate: 2005
 sameAs:
   - https://whitespark.ca/blog/author/darrenshaw/
   - https://www.linkedin.com/in/darrenshawwhitespark/
