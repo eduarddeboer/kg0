@@ -3,6 +3,11 @@ name: Darren Shaw
 description: Founder/President at Whitespark.ca. Develops software and services to improve your visibility on Google's local results to drive more leads to your business.
 knows:
   - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
+  - "@id": https://data.kg0.nl/entity/person/john_mueller
+  - "@id": https://data.kg0.nl/entity/person/joy_hawkins
+  - "@id": https://data.kg0.nl/entity/person/phil_rozek
+  - "@id": https://data.kg0.nl/entity/person/mike_blumenthal
+  - "@id": https://data.kg0.nl/entity/person/terry_van_horne
 worksFor:
   - "@id": https://data.kg0.nl/entity/organization/whitespark
     startDate: 2005

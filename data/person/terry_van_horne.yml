@@ -1,2 +1,4 @@
 name: Terry van Horne
 "@type": Person
+knows:
+  - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
