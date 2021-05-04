@@ -1,4 +1,17 @@
 name: Christopher Elliott
 "@type": Person
+description: >
+  Christopher Elliott is an author, advocate, and journalist. Elliott’s books are practical guides that help people make smarter purchases. He founded two nonprofit organizations for consumers. Elliott also writes six weekly columns that have a combined reach of 10 million readers.
 knows:
   - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
+mainEntityOfPage: https://chriselliotts.com/about-christopher-elliott/
+image: https://chriselliotts.com/wp-content/uploads/2019/08/elliott-asta.jpg
+sameAs:
+  - https://muckrack.com/christopher-elliott-5
+  - https://www.facebook.com/elliottdotorg
+  - https://www.linkedin.com/in/christopherelliott/
+  - https://www.elliott.org/author/elliott/
+  - https://www.forbes.com/sites/christopherelliott/
+  - https://twitter.com/chriselliotts
+url:
+  - https://www.elliott.org/

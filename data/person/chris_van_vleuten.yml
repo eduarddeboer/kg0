@@ -2,3 +2,10 @@ name: Chris van Vleuten
 "@type": Person
 knows:
   - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
+sameAs:
+  - https://filmfreeway.com/ChrisvanVleuten
+  - https://allvideosolutions.nl/over-all-video-solutions/
+  - https://www.youtube.com/user/chrisvanvleuten/
+  - https://www.linkedin.com/in/vanvleuten/
+  - https://twitter.com/chrisvanvleuten
+  - https://www.facebook.com/vanvleuten

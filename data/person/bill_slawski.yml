@@ -2,3 +2,14 @@ name: Bill Slawski
 "@type": Person
 knows:
   - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
+sameAs:
+  - https://www.google.com/search?kgmid=/m/02nt25s
+  - https://gofishdigital.com/author/bill/
+  - https://twitter.com/bill_slawski
+  - https://www.linkedin.com/in/slawski/
+  - https://www.searchenginejournal.com/author/bill-slawski/
+  - https://www.slideshare.net/billslawski
+  - https://searchengineland.com/author/bill-slawski
+  - https://www.instagram.com/billslawski/
+url:
+  - https://www.seobythesea.com/
