@@ -1,6 +1,8 @@
 name: Danny Moons
 "@type": Person
 image: https://dannymoons.nl/wp-content/uploads/2020/01/danny-moons.jpg
+knows:
+  - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
 sameAs:
   - https://www.linkedin.com/in/dannymoons-marketing/
   - https://www.hulpmetmarketing.nl/auteur/danny-moons/
