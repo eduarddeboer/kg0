@@ -1,2 +1,4 @@
 name: Jordi Clavel
 "@type": Person
+knows:
+  - "@id": https://data.kg0.nl/entity/person/eduard_de_boer

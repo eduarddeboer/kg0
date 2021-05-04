@@ -1,5 +1,7 @@
 name: John Reid
 "@type": Person
+description: John Reid (Utrecht, 19 februari 1968) is een Nederlands rechter en medebedenker/scenarist van de cartoonreeks Fokke & Sukke. Hij volgde in 2016 Frank Visser op als het titelpersonage in het televisieprogramma De Rijdende Rechter.
+disambiguatingDescription: John Reid (Utrecht, 19 februari 1968) is een Nederlands rechter en medebedenker/scenarist van de cartoonreeks Fokke & Sukke. Hij volgde in 2016 Frank Visser op als het titelpersonage in het televisieprogramma De Rijdende Rechter.
 alternateName:
   - Rijdende Rechter
   - De Rijdende Rechter
@@ -15,6 +17,12 @@ knowsLanguage:
     "@type": http://schema.org/Language
 knows:
   - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
+subjectOf:
+  - https://www.parool.nl/nieuws/john-reid-ik-ben-een-soort-ollie-b-bommel~bee903ac
+  - https://www.rechtencircuit.nl/rijdende-rechter-john-reid-ze-noemen-me-op-de-redactie-ook-wel-one-take-john/
+  - https://www.televizier.nl/amusement/ondertiteling-rijdende-rechter-friesland-slecht-verstaan
+  - https://www.televizier.nl/amusement/rechter-john-reid-dit-seizoen-zijn-er-veel-burenruzies
+  - https://www.mikrogids.nl/interview/mr-john-reid-door-lockdown-meer-burenleed/
 sameAs:
   - https://nl.wikipedia.org/wiki/John_Reid_(rechter)
   - https://www.wikidata.org/wiki/Q22955229

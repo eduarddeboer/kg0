@@ -1,0 +1,30 @@
+name: Hogeschool van Amsterdam
+"@type": CollegeOrUniversity
+alternateName:
+  - HvA
+description: De Hogeschool van Amsterdam (HvA) is een onderwijsinstelling voor hoger onderwijs in Nederland gevestigd in Amsterdam. Naast het aanbod van regulier hoger onderwijs, heeft deze hogeschool ook een brede lectorenkring, die vanuit centres of expertise praktijkgericht onderzoek uitvoeren voor het onderwijs en in samenwerking met maatschappelijke organisaties en bedrijven in de regio.
+telephone: +31 20-5951111
+hasMap: https://www.google.com/maps?cid=9726650458223761616
+alumni:
+  - "@id": https://data.fysiokg.nl/entity/person/frank_mulder
+sameAs:
+  - https://nl.wikipedia.org/wiki/Hogeschool_van_Amsterdam
+  - https://www.wikidata.org/wiki/Q945017
+  - https://g.co/kg/m/02r6_pz
+  - https://www.google.com/maps?cid=9726650458223761616
+  - https://nl.linkedin.com/school/hogeschool-van-amsterdam/
+  - https://www.facebook.com/hvanieuws/
+  - https://www.instagram.com/hogeschoolvanamsterdam/
+  - https://twitter.com/HvA
+  - https://www.youtube.com/channel/UCHCIc0YQZAPp6dUCnH5vctQ
+  - https://viaf.org/viaf/129923334
+  - https://isni.oclc.org/xslt/DB=1.2//CMD?ACT=SRCH&IKT=8006&TRM=ISN%3A0000%200001%200685%207679
+  - https://id.loc.gov/authorities/n95036005
+  - https://www.worldcat.org/identities/lccn-n95036005
+  - https://www.grid.ac/institutes/grid.431204.0
+  - https://academic.microsoft.com/v2/detail/55106644
+  - https://www.quora.com/topic/Hogeschool-Van-Amsterdam-MIM-MIC
+  - https://ror.org/00y2z2s03
+  - https://www.umultirank.org/study-at/university-of-aplied-science-amsterdam-rankings/
+url:
+  - https://www.hva.nl

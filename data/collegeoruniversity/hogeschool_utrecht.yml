@@ -1,0 +1,26 @@
+name: Hogeschool Utrecht
+"@type": CollegeOrUniversity
+description: De Hogeschool van Utrecht (HvU) ontstond in 1988 door een fusie van enkele hogescholen in de stad en provincie Utrecht. Per 1 september 2005 fuseerde de HvU met de Driebergse Hogeschool De Horst. Tegelijkertijd wijzigde de Hogeschool van Utrecht haar naam in Hogeschool Utrecht (HU).
+
+telephone: +31 88-4818181
+hasMap: https://www.google.com/maps?cid=2144693119285191009
+alumni:
+  - "@id": https://data.fysiokg.nl/entity/person/frank_mulder
+sameAs:
+  - https://g.co/kgs/d1B8if
+  - https://g.co/kg/m/04sbnp
+  - https://www.google.com/maps?cid=2144693119285191009
+  - https://nl.wikipedia.org/wiki/Hogeschool_Utrecht
+  - https://www.wikidata.org/wiki/Q4372693
+  - https://viaf.org/viaf/160710165/
+  - https://isni.oclc.org/xslt/DB=1.2/CMD?ACT=SRCH&IKT=8006&TRM=ISN%3A0000%200001%200824%209343
+  - https://id.loc.gov/authorities/no2010207656
+  - https://www.worldcat.org/identities/lccn-no2010207656/
+  - https://www.grid.ac/institutes/grid.438049.2
+  - https://academic.microsoft.com/v2/detail/173063890
+  - https://www.quora.com/topic/HU-University-of-Applied-Sciences-Utrecht
+  - https://ido.ringgold.com/search/results?simple=8119
+  - https://ror.org/028z9kw20
+  - https://www.umultirank.org/study-at/university-of-applied-sciences-utrecht-rankings/
+url:
+  - https://www.hu.nl

@@ -1,0 +1,20 @@
+name: Alberdingk Thijm College
+"@type": CollegeOrUniversity
+description: Het Alberdingk Thijm College is een middelbare school in Hilversum. De school is gelegen aan het door Dudok ontworpen Laapersveld. De school is van oudsher katholiek georiënteerd. Het ATC biedt havo en vwo aan en is een van de drie scholen in Hilversum met een gymnasiumafdeling.
+telephone: +31 35-6729900
+alumni:
+  - "@id": https://data.fysiokg.nl/entity/person/frank_mulder
+hasMap: https://www.google.com/maps?cid=4424890117335292379
+sameAs:
+  - https://nl.wikipedia.org/wiki/Alberdingk_Thijm_College
+  - https://www.wikidata.org/wiki/Q19760487
+  - https://scholenopdekaart.nl/middelbare-scholen/hilversum/4456/alberdingk-thijm-college/
+  - https://www.gooisegids.nl/scholen/alberdingk-thijm-college-20-20
+  - https://nl.linkedin.com/school/alberdingk-thijm-college/
+  - https://hilversum.socialekaartnederland.nl/organisaties/alberdingk-thijm-college-hilversum
+  - https://www.schoolbank.nl/school/alberdingk-thijm-college-atc-international-school-hilversum-vh-rk-lyceum
+  - https://drimble.nl/bedrijf/hilversum/225290/alberdingk-thijm-college.html
+  - https://foursquare.com/v/alberdingk-thijm-college/4c874173d8086dcb41bda052
+  - https://www.google.com/maps?cid=4424890117335292379
+url:
+  - https://www.atchilversum.nl
