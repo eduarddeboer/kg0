@@ -1,2 +1,22 @@
 name: Mike Blumenthal
 "@type": Person
+birthDate: 1951-02-24
+knows:
+  - "@id": https://data.kg0.nl/entity/person/darren_shaw
+  - "@id": https://data.kg0.nl/entity/person/john_mueller
+  - "@id": https://data.kg0.nl/entity/person/joy_hawkins
+  - "@id": https://data.kg0.nl/entity/person/phil_rozek
+  - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
+sameAs:
+  - https://www.wikidata.org/wiki/Q106695828
+  - https://twitter.com/mblumenthal
+  - https://www.crunchbase.com/person/mike-blumenthal-8dc3
+  - https://www.google.com/maps/contrib/106412255733219697839
+  - https://www.linkedin.com/in/mblumenthal/
+  - https://www.semrush.com/user/166134769/
+  - https://www.slideshare.net/mblumenthal
+  - http://data.wordlift.io/wl02026/entity/mike_blumenthal.html
+  - https://www.imdb.com/name/nm12286961/
+url:
+  - https://blumenthals.com/
+  - https://www.nearmedia.co/author/mike/
