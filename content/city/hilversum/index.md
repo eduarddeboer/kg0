@@ -1,0 +1,4 @@
+---
+slug: hilversum
+schematype: City
+---

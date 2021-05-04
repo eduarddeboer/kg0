@@ -1,0 +1,18 @@
+name: Hilversum
+"@type": City
+address:
+  - "@id": https://data.kg0.nl/entity/postaladdress/hulp_met_marketing
+containedInPlace:
+  "@id": https://data.kg0.nl/entity/country/nederland
+hasMap: https://www.google.com/maps?cid=2026401241318265395
+sameAs:
+  - https://www.wikidata.org/wiki/Q9934
+  - https://www.geonames.org/2754064/hilversum.html
+  - https://www.google.com/maps?cid=2026401241318265395
+  - http://vocab.getty.edu/page/tgn/7007042
+  - https://www.google.com/search?kgmid=/m/03kfl&kponly
+  - https://g.co/kg/m/03kfl
+  - https://viaf.org/viaf/144233774/
+  - https://www.britannica.com/place/Hilversum
+url:
+  - https://www.hilversum.nl/

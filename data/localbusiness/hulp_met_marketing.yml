@@ -14,7 +14,7 @@ naics: 519130
 founder:
   "@id": https://data.kg0.nl/entity/person/danny_moons
 foundingLocation:
-  "@id": https://data.fysiokg.nl/entity/city/hilversum
+  "@id": https://data.kg0.nl/entity/city/hilversum
 foundingDate: 2016
 legalName: "Hulp met Marketing"
 areaServed:

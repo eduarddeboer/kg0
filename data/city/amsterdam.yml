@@ -1,0 +1,19 @@
+name: Amsterdam
+"@type": City
+containedInPlace:
+  "@id": https://data.kg0.nl/entity/country/nederland
+hasMap: https://www.google.com/maps?cid=7350153097810849677
+sameAs:
+  - https://www.wikidata.org/wiki/Q727
+  - https://www.geonames.org/2759794/amsterdam.html
+  - http://vocab.getty.edu/page/tgn/7006952
+  - https://www.google.com/maps?cid=7350153097810849677
+  - https://www.google.com/search?kgmid=/m/0k3p&kponly
+  - https://viaf.org/viaf/158212776
+  - https://id.loc.gov/authorities/names/n78095634.html
+  - http://bag.basisregistraties.overheid.nl/bag/id/woonplaats/3594
+  - https://www.britannica.com/place/Amsterdam
+  - https://www.universalis.fr/encyclopedie/amsterdam/
+  - https://twitter.com/AmsterdamNL
+url:
+  - https://www.amsterdam.nl/
