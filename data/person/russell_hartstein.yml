@@ -1,4 +1,37 @@
 name: Russell Hartstein
 "@type": Person
+additionalType:
+  - https://www.wikidata.org/entity/Q1637531
+  - https://www.wikidata.org/entity/Q338507
+  - https://en.wikipedia.org/wiki/Dog_behaviourist
+  - https://www.google.com/search?kgmid=/m/04k075
 knows:
   - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
+mainEntityOfPage: https://www.funpawcare.com/bios/
+worksFor:
+  - "@id": https://data.kg0.nl/entity/localbusiness/funpawcare
+birthDate: 1974-10-06
+telephone: +1 (424) 341-0166
+subjectOf:
+  - https://iheartdogs.com/a-day-in-the-life-of-a-dog-trainer-to-the-stars/
+  - https://www.dogster.com/lifestyle/positive-dog-training-vs-traditional-dog-training
+  - https://www.yahoo.com/lifestyle/airlines-ban-emotional-support-animals-193030836.html
+  - https://www.lifewire.com/ai-may-be-ideal-for-training-your-dog-experts-say-5112710
+  - https://melmagazine.com/en-us/story/are-dogs-really-loyal-to-humans
+  - https://www.akc.org/expert-advice/dog-breeds/boxer-puppy-training-timeline-what-to-expect-and-when-to-expect-it/
+  - https://be.chewy.com/dog-breed/cane-corso/
+  - http://voyagela.com/interview/meet-russell-hartstein-fun-paw-care-santa-monica/
+  - http://www.prweb.com/releases/fun_paw_care/receives_certification/prweb12139114.htm
+  - https://www.petmd.com/dog/training/how-teach-dog-sit-no-matter-where-you-are
+sameAs:
+  - https://www.google.com/search?kgmid=/g/11gbhkx5hk
+  - https://www.linkedin.com/in/funpawcare/
+  - https://www.wikidata.org/wiki/Q78189962
+  - https://en.everybodywiki.com/Russell_Hartstein
+  - https://fearfreepets.com/fear-free-directory/listing/russell-hartstein
+  - https://www.apollo.io/people/Russell/Hartstein/54a4855374686938ac99734e
+  - https://data-lead.com/person/name/Russell+Hartstein/id/103578439/v/336c7
+  - https://deletionpedia.org/en/Russell_Hartstein
+  - https://petprofessionalguild.com/Sys/PublicProfile/7883557
+url:
+  - https://www.funpawcare.com/bios/

@@ -1,0 +1,4 @@
+---
+slug: funpawcare
+schematype: LocalBusiness
+---
