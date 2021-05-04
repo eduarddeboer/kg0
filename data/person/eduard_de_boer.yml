@@ -33,6 +33,12 @@ knows:
   - "@id": https://data.kg0.nl/entity/person/lara_verbeek
   - "@id": https://data.kg0.nl/entity/person/christopher_elliott
   - "@id": https://data.kg0.nl/entity/person/terry_van_horne
+  - "@id": https://data.kg0.nl/entity/person/bill_slawski
+  - "@id": https://data.kg0.nl/entity/person/hassan_jallow
+  - "@id": https://data.kg0.nl/entity/person/joscelin_trouwborst
+  - "@id": https://data.kg0.nl/entity/person/russell_hartstein
+  - "@id": https://data.kg0.nl/entity/person/wiebe_de_jager
+  - "@id": https://data.kg0.nl/entity/person/chris_van_vleuten
   - "@id": https://data.fysiokg.nl/entity/person/piet_douma
   - "@id": https://data.fysiokg.nl/entity/person/carmen_van_eijck_wilmink
   - "@id": https://data.fysiokg.nl/entity/person/olivier_blaauw
@@ -85,7 +91,7 @@ subjectOf:
     url: https://www.places.nl/nieuws/inspiratie/allround-fotografie-een-vooruitstrevend-fotografiebedrijf/
     name: "Allround Fotografie: Een vooruitstrevend fotografiebedrijf"
 sameAs:
-  - https://nl.linkedin.com/in/eduarddeboer/
+  - https://www.linkedin.com/in/eduarddeboer/
   - https://www.imdb.com/name/nm8412574/
   - https://www.instagram.com/eduarddeboer/
   - https://www.pinterest.nl/eduarddeboer/
