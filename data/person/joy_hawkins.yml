@@ -1,4 +1,16 @@
 name: Joy Hawkins
 "@type": Person
+description: >
+  Joy is the owner of the Local Search Forum, LocalU, and Sterling Sky, a Local SEO agency in Canada & the USA. She is also the author of the Expert’s Guide to Local SEO, which is an advanced training manual for people wanting a detailed look at what it takes to succeed in the Local SEO space. She has been working in the industry since 2006. She writes for publications such as Search Engine Land and enjoys speaking regularly at marketing conferences such as MozCon, LocalU, Pubcon, SearchLove and State of Search.
+mainEntityOfPage: https://www.sterlingsky.ca/about-us/joy-hawkins/
 knows:
   - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
+sameAs:
+  - https://vocab.blumenthals.com/entity/person/joy_hawkins
+  - https://searchengineland.com/author/joy-hawkins
+  - https://twitter.com/JoyanneHawkins
+  - https://www.linkedin.com/in/joyhawkins
+  - https://marketingland.com/author/joy-hawkins
+  - https://twitter.com/joyannehawkins
+  - https://www.crunchbase.com/person/joy-hawkins
+  - https://localmarketinginstitute.com/author/joy-hawkins/

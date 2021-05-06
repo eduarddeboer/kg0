@@ -1,4 +1,20 @@
 name: Phil Rozek
 "@type": Person
+alternateName:
+  - Philip Rozek
+description: >
+  Phil Rozek has worked in local SEO for more than 10 years. He is the Owner of Local Visibility System.
+mainEntityOfPage: https://www.localvisibilitysystem.com/about/
 knows:
   - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
+  - "@id": https://data.kg0.nl/entity/person/darren_shaw
+sameAs:
+  - https://twitter.com/philrozek
+  - https://www.linkedin.com/in/philip-rozek-111ba922
+  - https://whitespark.ca/blog/author/philrozek/
+  - https://summit.whitespark.ca/speakers/philip-rozek/
+  - https://www.slideshare.net/PhilRozek
+  - https://www.google.com/maps/contrib/114513476236782093010
+  - https://vocab.blumenthals.com/entity/person/phil_rozek
+url:
+  - https://www.localvisibilitysystem.com

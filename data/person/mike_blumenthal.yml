@@ -1,6 +1,20 @@
 name: Mike Blumenthal
 "@type": Person
-birthDate: 1951-02-24
+gender: https://schema.org/Male
+description: >
+  Mike Blumenthal has been involved in local search and local marketing strategy for almost 20 years. He explores the online to offline local ecosystem and helps business understand it and benefit from it.
+disambiguatingDescription: >
+  Mike Blumenthal has been involved in local search and local marketing strategy for almost 20 years. He explores the online to offline local ecosystem and helps business understand it and benefit from it.
+
+  Today he provides Local consulting to a range of businesses big and small across the SMB and SAAS marketplaces and actively writes at Near Media.
+
+  He is an investor in and advisor to new SAAS startup LeadFerno, which develops SMB tools that facilitate b to c communications using SMS and other real time communication channels.
+
+  After closing his 60 year old family retail business in 2001 due to competitive pressures from the likes of Walmart and Amazon, he started building and promoting local websites in a market that stretched over 50 miles in every direction. He learned first hand how the internet and big box retailers could impact small local businesses. He has never lost that understanding and from it came a great empathy for those running local businesses.
+
+  In 2005, with advent of Google Maps, he became convinced that hyper local marketing was nigh and the end of the Yellow Pages was in site.
+
+  Over the next 15 years he has explored ways to understand and leverage Google to help SMBs and SAAS companies service those small businesses.
 knows:
   - "@id": https://data.kg0.nl/entity/person/darren_shaw
   - "@id": https://data.kg0.nl/entity/person/john_mueller
@@ -9,6 +23,7 @@ knows:
   - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
   - "@id": https://data.kg0.nl/entity/person/terry_van_horne
   - "@id": https://data.kg0.nl/entity/person/bill_slawski
+mainEntityOfPage: https://blumenthals.com/blog/about-mike-blumenthal/
 sameAs:
   - https://vocab.blumenthals.com/entity/person/mike_blumenthal
   - https://www.google.com/search?kgmid=/g/11gg63bvvv
