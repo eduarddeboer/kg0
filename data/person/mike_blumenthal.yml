@@ -10,6 +10,11 @@ knows:
   - "@id": https://data.kg0.nl/entity/person/terry_van_horne
   - "@id": https://data.kg0.nl/entity/person/bill_slawski
 sameAs:
+  - https://vocab.blumenthals.com/entity/person/mike_blumenthal
+  - https://www.google.com/search?kgmid=/g/11gg63bvvv
+  - https://g.co/kg/g/11gg63bvvv
+  - https://www.google.com/maps?cid=8612728639224254627
+  - https://www.google.com/search?kgmid=/g/1tjmfmyq
   - https://www.wikidata.org/wiki/Q106695828
   - https://twitter.com/mblumenthal
   - https://www.crunchbase.com/person/mike-blumenthal-8dc3
@@ -18,9 +23,8 @@ sameAs:
   - https://www.semrush.com/user/166134769/
   - https://www.slideshare.net/mblumenthal
   - http://data.wordlift.io/wl02026/entity/mike_blumenthal.html
+  - https://www.youtube.com/channel/UCFcTg_HMd_a8Xd-kNYypO7w
   - https://www.imdb.com/name/nm12286961/
-  - https://www.google.com/maps?cid=8612728639224254627
-  - https://www.google.com/search?kgmid=/g/1tjmfmyq
 url:
   - https://blumenthals.com/
   - https://www.nearmedia.co/author/mike/
