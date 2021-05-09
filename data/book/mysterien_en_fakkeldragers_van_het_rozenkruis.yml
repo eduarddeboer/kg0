@@ -1,0 +1,11 @@
+name: Mysteriën en fakkeldragers van het Rozenkruis
+"@type": Book
+inLanguage:
+  - "@id": https://data.kg0.nl/entity/language/nederlands
+    "@type": http://schema.org/Language
+isbn: 9789067324809
+bookEdition:
+author:
+  - "@id": https://data.kg0.nl/entity/person/andre_de_boer
+sameAs:
+url:

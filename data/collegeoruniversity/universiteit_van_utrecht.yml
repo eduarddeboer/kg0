@@ -1,0 +1,30 @@
+name: Universiteit van Utrecht
+"@type": CollegeOrUniversity
+alternateName:
+  - Utrecht University
+  - University of Utrecht
+  - UU
+  - RUU
+  - Rijksuniversiteit Utrecht
+  - Universiteit Utrecht
+description: De Universiteit Utrecht (UU) is een Nederlandse universiteit die gevestigd is in de stad Utrecht. Tot 20 oktober 1992 heette ze Rijksuniversiteit te Utrecht (RUU). Met meer dan 30.000 studenten (en een jaarlijkse instroom van 6.500 nieuwe studenten) is de UU een van de grootste universiteiten van Nederland. Aan de universiteit zijn ongeveer 6.000 medewerkers verbonden, waarvan 640 hoogleraren. De universiteit biedt bacheloropleidingen, minors en masteropleidingen aan, alsmede promotietrajecten. De UU heeft zeven faculteiten, en heeft een totaal jaarbudget van circa 761 miljoen euro.
+telephone: +31302533550
+hasMap: https://www.google.com/maps?cid=15507197134013487926
+alumni:
+  - "@id": https://data.kg0.nl/entity/person/andre_de_boer
+sameAs:
+  - https://www.google.com/maps?cid=15507197134013487926
+  - https://www.google.com/search?kgmid=/m/07w6r
+  - https://nl.wikipedia.org/wiki/Universiteit_Utrecht
+  - https://www.wikidata.org/wiki/Q221653
+  - https://viaf.org/viaf/147168872/
+  - https://isni.org/isni/0000000121799606
+  - https://opac.vatlib.it/auth/detail/494_34949
+  - http://id.loc.gov/authorities/names/n79023007
+  - https://www.britannica.com/topic/State-University-of-Utrecht
+  - https://www.topuniversities.com/universities/utrecht-university
+  - https://www.researchgate.net/institution/Utrecht-University
+  - https://www.timeshighereducation.com/world-university-rankings/utrecht-university
+  - https://twitter.com/uniutrecht
+url:
+  - https://www.uu.nl/

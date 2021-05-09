@@ -2,7 +2,7 @@ name: Eduard de Boer
 "@type": Person
 givenName: Everhardus Lidanus Romild
 familyName: de Boer
-"birthdate": "1968-02-23"
+"birthDate": "1968-02-23"
 "birthPlace":
   "@id": https://data.kg0.nl/entity/city/zwartsluis
 gender: https://schema.org/Male
@@ -18,6 +18,8 @@ knowsLanguage:
     "@type": http://schema.org/Language
   - "@id": https://data.kg0.nl/entity/language/frans
     "@type": http://schema.org/Language
+sibling:
+  - "@id": https://data.kg0.nl/entity/person/andre_de_boer
 knows:
   - "@id": https://data.kg0.nl/entity/person/mart_stevens
   - "@id": https://data.kg0.nl/entity/person/evan_buytendijk

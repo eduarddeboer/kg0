@@ -1,0 +1,11 @@
+name: ${SEARCH}
+'"@type"': ${TYPE}
+inLanguage:
+  - '"@id"': https://data.kg0.nl/entity/language/nederlands
+    '"@type"': http://schema.org/Language
+isbn:
+bookEdition:
+author:
+  '"@id"':
+sameAs:
+url:

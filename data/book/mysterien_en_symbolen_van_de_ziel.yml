@@ -1,0 +1,11 @@
+name: Mysteriën en symbolen van de ziel
+"@type": Book
+inLanguage:
+  - "@id": https://data.kg0.nl/entity/language/nederlands
+    "@type": http://schema.org/Language
+isbn: 9789067324496
+bookEdition:
+author:
+  - "@id": https://data.kg0.nl/entity/person/andre_de_boer
+sameAs:
+url:

@@ -1,0 +1,4 @@
+---
+slug: zwolle
+schematype: City
+---

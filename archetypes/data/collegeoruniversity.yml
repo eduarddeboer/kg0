@@ -1,0 +1,10 @@
+name: ${SEARCH}
+'"@type"': ${TYPE}
+alternateName:
+description:
+telephone:
+hasMap:
+alumni:
+  - "@id":
+sameAs:
+url:

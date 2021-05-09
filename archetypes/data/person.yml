@@ -1,0 +1,12 @@
+name: ${SEARCH}
+'"@type"': ${TYPE}
+givenName:
+familyName:
+birthDate:
+birthPlace:
+mainEntityOfPage:
+description:
+disambiguatingDescription:
+gender:
+sameAs:
+url:
