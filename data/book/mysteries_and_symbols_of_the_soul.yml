@@ -7,5 +7,7 @@ isbn: 9789067324717
 bookEdition:
 author:
   - "@id": https://data.kg0.nl/entity/person/andre_de_boer
+publisher:
+  - "@id": https://data.kg0.nl/entity/newsmediaorganization/rozekruis_pers
 sameAs:
 url:
