@@ -1,0 +1,45 @@
+name: Mark Traphagen
+"@type": Person
+givenName: Mark
+familyName: Traphagen
+birthDate:
+birthPlace:
+mainEntityOfPage:
+description:
+disambiguatingDescription:
+subjectOf:
+  - "@id": https://www.youtube.com/watch?v=VnIERp3rFqk
+    "@type": http://schema.org/Movie
+    url: https://www.youtube.com/watch?v=VnIERp3rFqk
+knows:
+  - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
+gender: Male
+sameAs:
+  - https://twitter.com/marktraphagen
+  - https://www.linkedin.com/in/marktraphagen
+  - https://www.instagram.com/marktraphagen/
+  - https://www.facebook.com/MarkTraphagen
+  - https://www.pinterest.com/MarkTraphagen/
+  - https://www.wikidata.org/wiki/Q106963441
+  - https://searchengineland.com/author/mark-traphagen
+  - https://www.searchenginejournal.com/author/mark-traphagen/
+  - https://blogs.perficient.com/author/mtraphagen/
+  - https://martech.org/author/mark-traphagen/
+  - https://www.crunchbase.com/person/mark-traphagen
+  - https://medium.com/@marktraphagen/about
+  - https://moz.com/community/q/user/marktraphagen
+  - https://www.imdb.com/name/nm6516317
+  - https://www.flickr.com/photos/47907836@N00/
+  - https://flipboard.com/@marktraphagen
+  - https://www.quora.com/profile/Mark-Traphagen
+  - https://www.seoclarity.net/blog/author/mark-traphagen
+  - https://www.slideshare.net/marktraphagen
+  - https://refind.com/marktraphagen
+  - https://clubhousedb.com/user/marktraphagen
+  - https://www.semrush.com/user/149042321
+  - https://open.spotify.com/user/sagethefool
+  - https://learn.g2.com/author/mark-traphagen
+  - https://bookauthority.org/profile/mark-traphagen
+  - https://disqus.com/by/trappermark/
+url:
+  - https://rankedia.com/surfer-seo/mark-traphagen-becoming-better-seo-scientists-whiteboard-friday/
