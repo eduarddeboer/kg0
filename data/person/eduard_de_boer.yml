@@ -68,30 +68,30 @@ subjectOf:
   - "@id": https://data.kg0.nl/entity/tvepisode/t_heen_en_weer_krijgen_rijdende_rechter
     "@type": http://schema.org/TVEpisode
   - "@id": https://vazz.nl/ondernemer-eduard-de-boer-reputatiecoachingnl-in-the-spotlight/#webpage
-    "@type": http://schema.org/Article
+    "@type": http://schema.org/WebPage
     datePublished: 2016-06-25
     description: Vazz in gesprek met Eduard de Boer over zijn bedrijf Reputatiecoaching. Eduard de Boer is reputatiecoach en houdt zich bezig met het verbeteren van de online reputatie en vindbaarheid van bedrijven. Eduard doet niks aan marketing of advertenties. ‘De klanten weten me door mijn podcasts goed te vinden’ zegt hij.
     url: https://vazz.nl/ondernemer-eduard-de-boer-reputatiecoachingnl-in-the-spotlight/
     name: Ondernemer Eduard de Boer van ReputatieCoaching.NL in 'The Spotlight'
   - "@id": https://www.buenoo.nl/online-reputatie-belangrijk-voor-meer-omzet-eduard-de-boer/
-    "@type": http://schema.org/Article
+    "@type": http://schema.org/WebPage
     datePublished: 2014-10-22
     url: https://www.buenoo.nl/online-reputatie-belangrijk-voor-meer-omzet-eduard-de-boer/
     name: Online reputatie belangrijk voor meer omzet
   - "@id": https://www.destentor.nl/sport/pec-trainer-john-stegeman-kan-nog-maar-1-ding-doen-hij-moet-met-de-billen-bloot~af3e495b/
-    "@type": http://schema.org/Article
+    "@type": http://schema.org/WebPage
     datePublished: 2019-09-15
     headline: "PEC-trainer John Stegeman kan nog maar 1 ding doen: ‘Hij moet met de billen bloot’"
     description: PEC Zwolle-trainer John Stegeman reed vorige week met te veel alcohol op tegen een lantaarnpaal in Apeldoorn aan. Is hij nog te handhaven of is zijn gezag onherstelbaar aangetast? Imagodeskundigen geven advies wat te doen in dit soort situaties.
     url: https://www.destentor.nl/sport/pec-trainer-john-stegeman-kan-nog-maar-1-ding-doen-hij-moet-met-de-billen-bloot~af3e495b/
     name: "PEC-trainer John Stegeman kan nog maar 1 ding doen: ‘Hij moet met de billen bloot’"
   - "@id": https://eu.usatoday.com/story/travel/advice/2015/12/27/fake-tripadvisor-yelp-reviews/77844194/
-    "@type": http://schema.org/Article
+    "@type": http://schema.org/WebPage
     datePublished: 2015-12-27
     url: https://eu.usatoday.com/story/travel/advice/2015/12/27/fake-tripadvisor-yelp-reviews/77844194/
     name: Fake online reviews trip travelers
   - "@id": https://www.places.nl/nieuws/inspiratie/allround-fotografie-een-vooruitstrevend-fotografiebedrijf/
-    "@type": http://schema.org/Article
+    "@type": http://schema.org/WebPage
     url: https://www.places.nl/nieuws/inspiratie/allround-fotografie-een-vooruitstrevend-fotografiebedrijf/
     name: "Allround Fotografie: Een vooruitstrevend fotografiebedrijf"
 sameAs:
