@@ -6,6 +6,7 @@
 {{- $fieldname := "" -}}
 {{- $id        := $page.Scratch.Get "@id" -}}
 
+{{- $page.Scratch.SetInMap "json" "@context" "http://schema.org" -}}
 {{- range $field, $value := $entity -}}
   {{- $fieldname := $field -}}
   {{- $setvalue  := $value -}}
