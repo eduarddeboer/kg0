@@ -11,3 +11,6 @@ name: "'Laat je niet kisten' (De Rijdende Rechter)"
 actor:
   - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
   - "@id": https://data.kg0.nl/entity/person/john_reid
+sameAs:
+  - https://www.imdb.com/title/tt14821218/
+  - https://www.wikidata.org/wiki/Q107177484
