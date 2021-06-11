@@ -7,6 +7,8 @@ birthPlace: Eindhoven
 mainEntityOfPage: https://www.jeroenbaten.nl/mijn-geschiedenis/
 disambiguatingDescription:
 gender: Male
+knows:
+  - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
 sameAs:
   - https://www.wikidata.org/wiki/Q107188537
   - https://viaf.org/viaf/285105958/
