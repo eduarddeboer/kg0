@@ -1,2 +1,9 @@
 name: Engels
 "@type": Language
+description: >
+  Het Engels is een Indo-Europese taal, die vanwege de nauwe verwantschap met talen als het Fries, Duits en Nederlands tot de West-Germaanse talen wordt gerekend.
+sameAs:
+  - https://nl.wikipedia.org/wiki/Engels
+  - https://www.wikidata.org/wiki/Q1860
+  - https://www.google.com/search?kgmid=/m/02h40lc
+  - http://g.co/kg/m/02h40lc
