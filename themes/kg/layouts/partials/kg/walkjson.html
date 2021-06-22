@@ -1,0 +1,61 @@
+{{- $site     := .site -}}
+{{- $page     := .page -}}
+{{- $baseurl  := $site.BaseURL -}}
+{{- $data     := $site.Data -}}
+{{- $entity   := .entity -}}
+{{- $entities := .entities -}}
+
+{{/* - $baseurl := $site.BaseURL - */}}
+{{- $baseurl := "https://data.kg0.nl/entity/" -}}
+{{- $page.Scratch.Delete "retval" -}}
+
+{{- range $field, $value := $entity -}}
+
+  {{- if reflect.IsSlice $value -}}
+    {{- $slice := slice -}}
+    {{- range $record := $value -}}
+      {{- if reflect.IsMap $record -}}
+        {{- $retval := partial "kg/walkjson.html" (dict "entity" $record "site" $site "page" $page "entities" $entities ) -}}
+        {{- if $retval -}}
+          {{- $slice := $slice | append $retval -}}
+          {{- $slice -}}
+        {{- end -}}
+      {{- else -}}
+        {{- $slice := $slice | append $record -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $page.Scratch.Set "retval" $slice -}}
+  {{- else -}}
+
+    {{- $s := newScratch -}}
+
+    {{- if eq $field "@id" -}}
+      {{- $s.Set "id" $value -}}
+    {{- else if reflect.IsMap $value -}}
+      {{- $s.Set "id" (index $value "@id") -}}
+    {{- else -}}
+      {{- $page.Scratch.Set "retval" (dict $field $value) -}}
+    {{- end -}}
+
+    {{- $id := $s.Get "id" -}}
+
+    {{- if in $id $baseurl -}}
+      {{- $newid := replace $id $baseurl "" -}}
+      {{- $data := $site.Data -}}
+
+      {{- if in $entities $newid -}}
+        {{- $page.Scratch.Set $newid 1 -}}
+        <h1>Found: {{ $newid }}</h1>
+        {{- $entitytype := index (split $newid "/") 0 -}}
+        {{- $entityid   := index (split $newid "/") 1 -}}
+        {{- $entitydir  := index $data $entitytype -}}
+        {{- $entity     := index $entitydir $entityid -}}
+        {{- $entity     := merge $entity (dict "@id" (print $baseurl $newid)) -}}
+        {{- $page.Scratch.SetInMap "schema:graph" $newid $entity -}}
+      {{- end -}}
+
+    {{- end -}}
+
+
+  {{- end -}}
+{{- end -}}

@@ -1,0 +1,32 @@
+{{- $site := .site -}}
+{{- $page := .page -}}
+
+{{/* - $baseurl := $site.BaseURL - */}}
+{{- $baseurl := "https://data.kg0.nl/entity/" -}}
+
+{{- range $field, $value := .entity -}}
+
+  {{- print ">" $field "< - >" $value "<" "<br />" -}}
+  {{- if reflect.IsMap $value -}}
+    {{- $id := index $value "@id" -}}
+    {{- if in $id $baseurl -}}
+      {{- $newid := replace $id $baseurl "" -}}
+      {{- $data := $site.Data -}}
+
+      {{- $entitytype := index (split $newid "/") 0 -}}
+      {{- $entityid   := index (split $newid "/") 1 -}}
+      {{- $entitydir  := index $data $entitytype -}}
+      {{- $newentity  := index $entitydir $entityid -}}
+      {{- if not ( $page.Scratch.Get $newid ) -}}
+        {{- $page.Scratch.Set $newid 1 -}}
+        <h1>{{ $newentity }}</h1>
+        <h2>{{ $page.Content }}</h2>
+        {{/* - partial "walkjson.html" (dict "entity" $newentity "site" $site "page" $page) - */}}
+      {{- end -}}
+    {{- end -}}
+
+  {{- else if reflect.IsSlice $value -}}
+    {{- partial "walkjson.html" (dict "entity" $value "site" $site "page" $page ) -}}
+  {{- end -}}
+
+{{- end -}}

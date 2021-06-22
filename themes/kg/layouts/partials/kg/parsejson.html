@@ -1,0 +1,71 @@
+{{- /* Set initial variables */ -}}
+{{- $page := .Page -}}
+{{- $site := .Site -}}
+{{- $baseurl := $site.BaseURL -}}
+{{- $data := $site.Data -}}
+
+{{- $baseurl := "https://data.kg0.nl/entity/" -}}
+
+{{- $entitylist := slice -}}
+
+{{- if $page.Params.mainentity -}}
+  {{- $entitytype := index (split $page.Params.mainentity "/") 0 -}}
+  {{- $entityid   := index (split $page.Params.mainentity "/") 1 -}}
+  {{- $entitydir  := index $data $entitytype -}}
+  {{- $entity     := index $entitydir $entityid -}}
+
+  {{- with $page.Params.about -}}
+    {{- if not (in $entitylist . ) -}}
+      {{- $entitylist = $entitylist | append . -}}
+      {{- range . -}}
+        {{- $entitytype := index (split . "/") 0 -}}
+        {{- $entityid   := index (split . "/") 1 -}}
+        {{- $entitydir  := index $data $entitytype -}}
+        {{- $entity     := index $entitydir $entityid -}}
+        {{- $entity     := merge $entity (dict "@id" (print $baseurl $entityid)) -}}
+        {{- $page.Scratch.SetInMap "schema:graph" $entityid $entity -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- with $page.Params.mentions -}}
+    {{- $entitylist = $entitylist | append . -}}
+    {{- range . -}}
+      {{- $entitytype := index (split . "/") 0 -}}
+      {{- $entityid   := index (split . "/") 1 -}}
+      {{- $entitydir  := index $data $entitytype -}}
+      {{- $entity     := index $entitydir $entityid -}}
+      {{- $entity     := merge $entity (dict "@id" (print $baseurl $entitytype "/"  $entityid)) -}}
+      {{- $page.Scratch.SetInMap "schema:graph" $entityid $entity -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- with $page.Params.entities -}}
+    {{- $entitylist = $entitylist | append . -}}
+    {{- range . -}}
+      {{- $entitytype := index (split . "/") 0 -}}
+      {{- $entityid   := index (split . "/") 1 -}}
+      {{- $entitydir  := index $data $entitytype -}}
+      {{- $entity     := index $entitydir $entityid -}}
+      {{- $entity     := merge $entity (dict "@id" (print $baseurl $entitytype "/" $entityid)) -}}
+      {{- $page.Scratch.SetInMap "schema:graph" $entityid $entity -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{ $depth := 1 }}
+  {{- partial "kg/screenentity.html" (dict "entity" $entity "site" $site "page" $page "entities" $entitylist "depth" $depth ) -}}
+
+  {{- $page.Scratch.SetInMap "result" "@id" (print $baseurl $entitytype "/" $entityid) -}}
+
+  {{- $graph := slice -}}
+  {{- range $value := ($page.Scratch.Get "schema:graph") -}}
+    {{- $graph = $graph | append $value -}}
+  {{- end -}}
+
+  {{- $result := $page.Scratch.Get "result" -}}
+  {{- $finalgraph := (dict "@context" "https://schema.org" "@graph" (slice $result $graph)) -}}
+
+  {{- $output := $finalgraph | jsonify | safeJS -}}
+  {{- $output -}}
+
+{{- end -}}

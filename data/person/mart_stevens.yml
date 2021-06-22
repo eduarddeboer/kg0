@@ -1,6 +1,6 @@
 name: Mart Stevens
 "@type": Person
-firstName: Martin
+givenName: Martin
 familyName: Stevens
 gender: http://schema.org/Male
 knowsLanguage:

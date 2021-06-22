@@ -1,0 +1,11 @@
+{{- /* Set initial variables */ -}}
+{{- $page := .Page -}}
+{{- $site := .Site -}}
+{{- $baseurl := $site.BaseURL -}}
+{{- $data := $site.Data -}}
+
+{{- $entitytype := lower $page.Params.schematype -}}
+{{- $entitydir  := index $data $entitytype -}}
+{{- $entity     := index $entitydir $page.Params.Slug -}}
+
+{{- partial "walkjson.html" (dict "entity" $entity "site" $site "page" $page ) -}}

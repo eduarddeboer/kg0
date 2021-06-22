@@ -12,11 +12,10 @@ birthPlace:
 image: https://kro-ncrv.nl/sites/kro-ncrv-nl/files/styles/banner_lg/public/media/images/2017-03-persfoto-rijdende-rechter-3314_0.jpg
 knowsLanguage:
   - "@id": https://data.kg0.nl/entity/language/nederlands
-    "@type": http://schema.org/Language
   - "@id": https://data.kg0.nl/entity/language/engels
-    "@type": http://schema.org/Language
 knows:
   - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
+  - "@id": https://data.kg0.nl/entity/person/miriam_van_heukelom
 subjectOf:
   - https://www.parool.nl/nieuws/john-reid-ik-ben-een-soort-ollie-b-bommel~bee903ac
   - https://www.rechtencircuit.nl/rijdende-rechter-john-reid-ze-noemen-me-op-de-redactie-ook-wel-one-take-john/
@@ -34,7 +33,7 @@ sameAs:
   - https://www.imdb.com/name/nm9223747
   - https://www.linkedin.com/in/john-reid-3464225a/
   - https://www.gids.tv/onderwerp/john-reid
-  - https://g.co/kgs/aS71Yp
+  - http://g.co/kgs/aS71Yp
   - https://www.google.com/search?kgmid=/m/0hznpfd
-  - https://g.co/kg/m/0hznpfd
+  - http://g.co/kg/m/0hznpfd
   - kg:m/0hznpfd

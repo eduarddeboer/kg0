@@ -1,0 +1,49 @@
+{{- /* Set initial variables */ -}}
+{{- $page := .Page -}}
+{{- $site := .Site -}}
+{{- $baseurl := $site.BaseURL -}}
+{{- $data := $site.Data -}}
+
+{{- $entitylist := slice -}}
+
+{{- if $page.Params.mainentity -}}
+  {{- $entitytype := index (split $page.Params.mainentity "/") 0 -}}
+  {{- $entityid   := index (split $page.Params.mainentity "/") 1 -}}
+  {{- $entitydir  := index $data $entitytype -}}
+  {{- $entity     := index $entitydir $entityid -}}
+
+  {{- with $page.Params.about -}}
+    {{- if not (in $entitylist . ) -}}
+      {{- $entitylist = $entitylist | append . -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- with $page.Params.mentions -}}
+    {{- $entitylist = $entitylist | append . -}}
+  {{- end -}}
+
+  {{- with $page.Params.entities -}}
+    {{- $entitylist = $entitylist | append . -}}
+  {{- end -}}
+
+  {{- partial "kg/walkjson.html" (dict "entity" $entity "site" $site "page" $page "entities" $entitylist ) -}}
+
+  {{- return -}}
+  
+  {{- $graph := slice -}}
+  {{- range $value := ($page.Scratch.Get "schema:graph") -}}
+    {{- $graph = $graph | append $value -}}
+  {{- end -}}
+
+  {{- $finalgraph := (dict "@context" "https://schema.org" "@graph" $graph) -}}
+
+  {{- $output := $finalgraph | jsonify | safeJS -}}
+  {{- $output -}}<br ><br />
+
+  {{- $graph := $page.Scratch.Get "schema:this" -}}
+  {{- $finalgraph := (dict "@context" "https://schema.org" "@graph" $graph) -}}
+
+  {{- $output := $finalgraph | jsonify | safeJS -}}
+  {{- $output -}}
+
+{{- end -}}

@@ -5,15 +5,19 @@ familyName: de Boer
 "birthDate": "1968-02-23"
 "birthPlace":
   - "@id": https://data.kg0.nl/entity/city/zwartsluis
-gender: Male
+gender: https://schema.org/Male
 description: Eduard de Boer is een digitale duizendpoot.
 disambiguatingDescription:
 image: https://www.gravatar.com/avatar/a218861c60b4a06728ed76086a0bf335.jpg?s=1200
 knowsLanguage:
   - "@id": https://data.kg0.nl/entity/language/nederlands
+    "@type": Language
   - "@id": https://data.kg0.nl/entity/language/engels
+    "@type": Language
   - "@id": https://data.kg0.nl/entity/language/duits
+    "@type": Language
   - "@id": https://data.kg0.nl/entity/language/frans
+    "@type": Language
 sibling:
   - "@id": https://data.kg0.nl/entity/person/andre_de_boer
 knows:
@@ -49,13 +53,50 @@ knows:
   - "@id": https://data.fysiokg.nl/entity/person/frank_mulder
 subjectOf:
   - "@id": https://data.kg0.nl/entity/movie/siliconen_polder
+    "@type": Movie
   - "@id": https://www.youtube.com/watch?v=Q7lGPXx9dTA
+    "@type": Movie
+    url: https://www.youtube.com/watch?v=Q7lGPXx9dTA
   - "@id": https://www.youtube.com/watch?v=HPth3iXHO7Y
+    "@type": Movie
+    url: https://www.youtube.com/watch?v=HPth3iXHO7Y
   - "@id": https://data.kg0.nl/entity/tvepisode/door_het_stof_rijdende_rechter
+    "@type": TVEpisode
   - "@id": https://data.kg0.nl/entity/tvepisode/gevloerd_rijdende_rechter
+    "@type": TVEpisode
   - "@id": https://data.kg0.nl/entity/tvepisode/laat_je_niet_kisten_rijdende_rechter
+    "@type": TVEpisode
   - "@id": https://data.kg0.nl/entity/tvepisode/schutting_van_de_rekening_rijdende_rechter
+    "@type": TVEpisode
   - "@id": https://data.kg0.nl/entity/tvepisode/t_heen_en_weer_krijgen_rijdende_rechter
+    "@type": TVEpisode
+  - "@id": https://vazz.nl/ondernemer-eduard-de-boer-reputatiecoachingnl-in-the-spotlight/#webpage
+    "@type": WebPage
+    datePublished: 2016-06-25
+    description: Vazz in gesprek met Eduard de Boer over zijn bedrijf Reputatiecoaching. Eduard de Boer is reputatiecoach en houdt zich bezig met het verbeteren van de online reputatie en vindbaarheid van bedrijven. Eduard doet niks aan marketing of advertenties. ‘De klanten weten me door mijn podcasts goed te vinden’ zegt hij.
+    url: https://vazz.nl/ondernemer-eduard-de-boer-reputatiecoachingnl-in-the-spotlight/
+    name: Ondernemer Eduard de Boer van ReputatieCoaching.NL in 'The Spotlight'
+  - "@id": https://www.buenoo.nl/online-reputatie-belangrijk-voor-meer-omzet-eduard-de-boer/
+    "@type": WebPage
+    datePublished: 2014-10-22
+    url: https://www.buenoo.nl/online-reputatie-belangrijk-voor-meer-omzet-eduard-de-boer/
+    name: Online reputatie belangrijk voor meer omzet
+  - "@id": https://www.destentor.nl/sport/pec-trainer-john-stegeman-kan-nog-maar-1-ding-doen-hij-moet-met-de-billen-bloot~af3e495b/
+    "@type": WebPage
+    datePublished: 2019-09-15
+    headline: "PEC-trainer John Stegeman kan nog maar 1 ding doen: ‘Hij moet met de billen bloot’"
+    description: PEC Zwolle-trainer John Stegeman reed vorige week met te veel alcohol op tegen een lantaarnpaal in Apeldoorn aan. Is hij nog te handhaven of is zijn gezag onherstelbaar aangetast? Imagodeskundigen geven advies wat te doen in dit soort situaties.
+    url: https://www.destentor.nl/sport/pec-trainer-john-stegeman-kan-nog-maar-1-ding-doen-hij-moet-met-de-billen-bloot~af3e495b/
+    name: "PEC-trainer John Stegeman kan nog maar 1 ding doen: ‘Hij moet met de billen bloot’"
+  - "@id": https://eu.usatoday.com/story/travel/advice/2015/12/27/fake-tripadvisor-yelp-reviews/77844194/
+    "@type": WebPage
+    datePublished: 2015-12-27
+    url: https://eu.usatoday.com/story/travel/advice/2015/12/27/fake-tripadvisor-yelp-reviews/77844194/
+    name: Fake online reviews trip travelers
+  - "@id": https://www.places.nl/nieuws/inspiratie/allround-fotografie-een-vooruitstrevend-fotografiebedrijf/
+    "@type": WebPage
+    url: https://www.places.nl/nieuws/inspiratie/allround-fotografie-een-vooruitstrevend-fotografiebedrijf/
+    name: "Allround Fotografie: Een vooruitstrevend fotografiebedrijf"
 sameAs:
   - https://www.linkedin.com/in/eduarddeboer/
   - https://www.imdb.com/name/nm8412574/

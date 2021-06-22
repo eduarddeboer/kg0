@@ -2,3 +2,15 @@ name: Joscelin Trouwborst
 "@type": Person
 knows:
   - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
+sameAs:
+  - https://www.linkedin.com/in/joscelintrouwborst
+  - https://www.facebook.com/joscelin.trouwborst
+  - https://twitter.com/josctr
+  - https://www.google.com/maps/contrib/113333350094278871459/
+  - https://medium.com/@joscelin.trouwborst
+url:
+  - https://www.360cities.net/nl/profile/joscelin-trouwborst
+  - https://contactout.com/Joscelin-Trouwborst-31967792
+  - https://ivrpa.org/author/joscelin-trouwborst/
+  - https://www.mapthepaths.com/hire/bc8aad3f-606c-4e8b-9ae5-5c7f6283a039/
+  - https://www.traildino.com/user/36371

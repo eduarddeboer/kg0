@@ -1,0 +1,29 @@
+name: Paige Hobart
+"@type": Person
+givenName: Paige
+familyName: Hobart
+birthDate:
+birthPlace:
+mainEntityOfPage:
+description: >
+  Paige Hobart has built a career in Search Engine Optimisation (SEO) working with brands including Harvey Nichols, Clarks, Rightmove and The National Lottery.
+
+  Having joined ROAST in 2015, she has been at the core of the company and the SEO department since its inception. As Team Director of the SEO department, Paige plays a crucial role in the development of the ever-growing SEO team.
+disambiguatingDescription:
+knowsLanguage:
+  - "@id": https://data.kg0.nl/entity/language/engels
+    "@type": Language
+knows:
+  - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
+gender: Female
+worksFor:
+  - "@id": https://data.kg0.nl/entity/localbusiness/roast
+sameAs:
+  - https://twitter.com/paigehobart
+  - https://www.linkedin.com/in/paigehobart
+  - https://www.slideshare.net/paigehobart
+url:
+  - https://weareroast.com/author/paige-hobart/
+  - https://www.bournemouth.ac.uk/collaborate/alumni/introducing-bu-s-30-under-30/paige-hobart
+  - https://2020.brightonseo.com/speakers/paige-hobart/
+  - https://www.semrush.com/user/189609873/

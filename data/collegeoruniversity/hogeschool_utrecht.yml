@@ -7,8 +7,8 @@ hasMap: https://www.google.com/maps?cid=2144693119285191009
 alumni:
   - "@id": https://data.fysiokg.nl/entity/person/frank_mulder
 sameAs:
-  - https://g.co/kgs/d1B8if
-  - https://g.co/kg/m/04sbnp
+  - http://g.co/kgs/d1B8if
+  - http://g.co/kg/m/04sbnp
   - https://www.google.com/maps?cid=2144693119285191009
   - https://nl.wikipedia.org/wiki/Hogeschool_Utrecht
   - https://www.wikidata.org/wiki/Q4372693

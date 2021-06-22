@@ -28,3 +28,8 @@ uglyURLs = true
   isPlainText = true
   notAlternative = true
   path = "/entity"
+
+[kg]
+  kgURL = "https://data.kg0.nl/"
+  author = "person/eduard_de_boer"
+  publisher = "organization/allround_fotografie"

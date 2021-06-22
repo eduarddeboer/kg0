@@ -1,0 +1,76 @@
+{{- $site     := .site -}}
+{{- $page     := .page -}}
+{{- $baseurl  := $site.BaseURL -}}
+{{- $data     := $site.Data -}}
+{{- $entity   := .entity -}}
+{{- $entities := .entities -}}
+{{- $depth    := .depth -}}
+{{- $topfield := .field -}}
+
+{{/* - $baseurl := $site.BaseURL - */}}
+{{- $baseurl := "https://data.kg0.nl/entity/" -}}
+{{- range $field, $value := $entity -}}
+  {{- if reflect.IsSlice $value -}}
+    {{- range $record := $value -}}
+      {{- if reflect.IsMap $record -}}
+        {{/* <h2>if {{$field}} : {{ $record }}</h2> */}}
+        {{- partial "kg/screenentity.html" (dict "entity" $record "site" $site "page" $page "entities" $entities "depth" (add $depth 1) "field" $field) -}}
+        {{- $retval := $page.Scratch.Get "result" -}}
+        {{/* RETVAL: {{ $retval }}<br> */}}
+      {{- else -}}
+      {{/* <h2>else {{$field}} : {{ $record }}</h2> */}}
+        {{- $map := ($page.Scratch.Get $field) -}}
+        {{- $map := $map | append $record -}}
+        {{- $page.Scratch.SetInMap "result" $field $map -}}
+        {{- $page.Scratch.Set $field $map -}}
+        {{/* <br>Map: {{$map}}<br> */}}
+        {{- end -}}
+    {{- end -}}
+  {{- else -}}
+
+    {{- $s := newScratch -}}
+
+    {{- if eq $field "@id" -}}
+      {{- $s.Set "id" $value -}}
+            {{/*  Getting @id: {{ $value }} */}}
+    {{- else if reflect.IsMap $value -}}
+      {{- $s.Set "id" (index $value "@id") -}}
+    {{- else -}}
+       {{/*  IN ELSE: {{$field}} : {{$value}} */}}
+    {{- end -}}
+
+    {{- $id := $s.Get "id" -}}
+    {{- if in $id $baseurl -}}
+      {{- $newid := replace $id $baseurl "" -}}
+
+      {{- if in $entities $newid -}}
+        {{- $page.Scratch.Set $newid 1 -}}
+
+        {{- $entitytype := index (split $newid "/") 0 -}}
+        {{- $entityid   := index (split $newid "/") 1 -}}
+        {{- $entitydir  := index $data $entitytype -}}
+        {{- $entity     := index $entitydir $entityid -}}
+        {{- $entity     := merge $entity (dict "@id" (print $baseurl $entitytype "/" $newid)) -}}
+        {{/*  <br>Adding to graph: {{ $topfield }} or {{ $field }}<br> */}}
+        {{- if $topfield -}}
+          {{- $map := ($page.Scratch.Get $topfield) -}}
+          {{- $map := $map | append (dict "@id" $id) -}}
+          {{- $page.Scratch.SetInMap "result" $topfield $map -}}
+          {{- $page.Scratch.Set $topfield $map -}}
+        {{- else -}}
+          {{- $page.Scratch.SetInMap "result" $topfield $value -}}
+        {{- end -}}
+
+      {{- end -}}
+      {{- $s.Delete "id" -}}
+    {{- else -}}
+      {{/* <h2>2e set: {{$field}} : {{$value}}</h2> */}}
+      {{- if eq $depth 1 -}}
+        {{- $page.Scratch.SetInMap "result" $field $value -}}
+      {{- end -}}
+    {{- end -}}
+
+  {{- end -}}
+
+{{- $retval := $page.Scratch.Get "result" -}}
+{{- end -}}
