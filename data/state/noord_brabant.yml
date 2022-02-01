@@ -3,7 +3,7 @@ name: Noord-Brabant
 alternateName:
   - Broabant
   - Brabant
-hasMap:
+hasMap: https://www.google.com/maps?cid=216417262609784000
 mainEntityOfPage:
 description: >
   Noord-Brabant of kortweg Brabant (Brabants: Broabant) is een provincie in het zuiden van Nederland. De hoofdstad is 's-Hertogenbosch. Noord-Brabant telt circa 2,5 miljoen inwoners en komt daarmee op de derde plaats in Nederland. In oppervlakte is de provincie na Gelderland de grootste. Noord-Brabant kent een relatief sterke verstedelijking, waarbij men spreekt van de 'Brabantse stedenrij'. Eindhoven is met ruim 235.000 ingezetenen de grootste stad en is tevens de grootste Nederlandse gemeente buiten de Randstad.
@@ -21,6 +21,7 @@ sameAs:
   - https://www.britannica.com/place/Noord-Brabant
   - https://www.google.com/search?kgmid=/m/0fcrg&kponly
   - https://g.co/kg/m/0fcrg
+  - https://www.google.com/maps?cid=216417262609784000
   - https://www.geonames.org/2749990
   - https://www.openstreetmap.org/relation/47696
   - https://www.pinterest.com/noordbrabant/

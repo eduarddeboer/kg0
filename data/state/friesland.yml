@@ -2,7 +2,7 @@ name: Friesland
 "@type": State
 alternateName:
   - Fryslân
-hasMap:
+hasMap: https://www.google.com/maps?cid=216417262609783872
 mainEntityOfPage:
 description: >
   Friesland (officieel, Fries: Fryslân) is een provincie in het noorden van Nederland. Friesland telde in 2020 649.957 inwoners. De hoofdstad is Leeuwarden. Naast het Nederlands heeft in de provincie het Fries de status van officiële bestuurstaal.
@@ -19,6 +19,7 @@ sameAs:
   - https://www.britannica.com/place/Friesland
   - https://www.google.com/search?kgmid=/m/02_vs&kponly
   - https://g.co/kg/m/02_vs
+  - https://www.google.com/maps?cid=216417262609783872
   - https://www.openstreetmap.org/relation/47381
   - https://twitter.com/provfryslan
   - https://www.facebook.com/provinciefryslan/

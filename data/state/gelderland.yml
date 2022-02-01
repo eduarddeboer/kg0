@@ -2,7 +2,7 @@ name: Gelderland
 "@type": State
 alternateName:
   - Gelderlaand
-hasMap:
+hasMap: https://www.google.com/maps?cid=216417262609783920
 mainEntityOfPage:
 description: >
   Gelderland (Nedersaksisch: Gelderlaand) is de grootste provincie van Nederland. De provincie is gelegen in het midden en oosten van Nederland en wordt in het noordoosten begrensd door Overijssel, in het oosten door de Duitse deelstaat Noordrijn-Westfalen, in het zuiden door Limburg en Noord-Brabant, in het uiterste zuidwesten door Zuid-Holland, in het westen door de provincie Utrecht en in het noordwesten door de provincie Flevoland, gescheiden door de Veluwerandmeren. De hoofdstad van Gelderland is Arnhem. De stad met de meeste inwoners is Nijmegen en qua oppervlakte is Apeldoorn de grootste gemeente.
@@ -22,6 +22,7 @@ sameAs:
   - https://www.britannica.com/place/Gelderland
   - https://www.google.com/search?kgmid=/m/0fqxw&kponly
   - https://g.co/kg/m/0fqxw
+  - https://www.google.com/maps?cid=216417262609783920
   - https://www.geonames.org/2755634
   - https://www.openstreetmap.org/relation/47554
   - https://www.youtube.com/channel/UCJIC7-rr70PFpAYvfmp6DkA

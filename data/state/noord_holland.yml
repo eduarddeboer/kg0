@@ -1,7 +1,7 @@
 name: Noord-Holland
 "@type": State
 alternateName:
-hasMap:
+hasMap: https://www.google.com/maps?cid=13916325153365983781
 mainEntityOfPage:
 description: >
   Noord-Holland (is een provincie in het noordwesten van Nederland. De provincie telde op 1 november 2019; 2.877.909 inwoners. Noord-Holland heeft een oppervlakte van 4.092 km², waarvan 2.662 km² aan land, daarmee heeft de provincie een bevolkingsdichtheid van 1.082 inwoners per km². De provinciehoofdstad is Haarlem, de grootste stad is Amsterdam. De grootste luchthaven van Nederland en de op twee na grootste luchthaven van Europa, Amsterdam Airport Schiphol, bevindt zich in Noord-Holland.
@@ -20,6 +20,7 @@ sameAs:
   - https://www.britannica.com/place/Noord-Holland
   - https://www.google.com/search?kgmid=/m/0fqyc&kponly
   - https://g.co/kg/m/0fqyc
+  - https://www.google.com/maps?cid=13916325153365983781
   - https://www.geonames.org/2749879
   - https://www.getty.edu/vow/TGNFullDisplay?find=&place=&nation=&english=Y&subjectid=7006951
   - https://www.openstreetmap.org/relation/47654

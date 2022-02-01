@@ -1,7 +1,7 @@
 name: Zuid-Holland
 "@type": State
 alternateName:
-hasMap:
+hasMap: https://www.google.com/maps?cid=18170852286525445546
 mainEntityOfPage:
 description: >
   Zuid-Holland is een provincie in het westen van Nederland aan de Noordzeekust. De hoofdstad is Den Haag, de grootste stad is Rotterdam. Zuid-Holland is een van de dichtstbevolkte en meest geïndustrialiseerde gebieden ter wereld. De provincie meet 3403 km² en het aantal inwoners is 3.673.893 (januari 2019), waarmee Zuid-Holland de dichtstbevolkte én bevolkingsrijkste provincie van Nederland is.
@@ -19,6 +19,7 @@ sameAs:
   - https://www.britannica.com/place/Zuid-Holland
   - https://www.google.com/search?kgmid=/m/07371&kponly
   - https://g.co/kg/m/07371
+  - https://www.google.com/maps?cid=18170852286525445546
   - https://www.geonames.org/2743698
   - https://www.getty.edu/vow/TGNFullDisplay?find=&place=&nation=&english=Y&subjectid=7003632
   - https://www.youtube.com/channel/UChWZdLO5_jjPcIb9hmZErpQ

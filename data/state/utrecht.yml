@@ -1,7 +1,7 @@
 name: Utrecht
 "@type": State
 alternateName:
-hasMap:
+hasMap: https://www.google.com/maps?cid=216417262609783984
 mainEntityOfPage:
 description: >
   Utrecht is met een landoppervlakte van 1.485 km² de op een na kleinste provincie van Nederland. In 2019 telde de provincie 1.342.158 inwoners.
@@ -22,6 +22,7 @@ sameAs:
   - https://www.britannica.com/place/Utrecht-province-Netherlands
   - https://www.google.com/search?kgmid=/m/0d9rp&kponly
   - https://g.co/kg/m/0d9rp
+  - https://www.google.com/maps?cid=216417262609783984
   - https://www.geonames.org/2745909
   - https://www.openstreetmap.org/relation/47667
   - https://twitter.com/provutrecht

@@ -2,7 +2,7 @@ name: Overijssel
 "@type": State
 alternateName:
   - Oaveriessel
-hasMap:
+hasMap: https://www.google.com/maps?cid=6050009581978579871
 mainEntityOfPage:
 description: >
   Overijssel (Nedersaksisch: Oaveriessel) is een provincie in het oosten van Nederland. De rivier de IJssel vormt in het zuidwesten grotendeels de natuurlijke grens met Gelderland. Overijssel grenst in het noorden aan Drenthe, in het noordoosten aan Nedersaksen, in het zuidoosten aan Noordrijn-Westfalen, in het zuiden en zuidwesten aan de provincie Gelderland, in het uiterste westen aan Flevoland en in het noordwesten aan Friesland. De stad met de meeste inwoners is Enschede. De hoofdstad van Overijssel is Zwolle. De dialecten die in deze provincie worden gesproken, vallen onder het Nedersaksisch.
@@ -22,6 +22,7 @@ sameAs:
   - https://www.britannica.com/place/Overijssel
   - https://www.google.com/search?kgmid=/m/0fqxc&kponly
   - https://g.co/kg/m/0fqxc
+  - https://www.google.com/maps?cid=6050009581978579871
   - https://www.geonames.org/2748838
   - https://www.openstreetmap.org/relation/47608
   - https://twitter.com/provoverijssel

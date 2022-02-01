@@ -2,7 +2,7 @@ name: Drenthe
 "@type": State
 alternateName:
   - Drente
-hasMap:
+hasMap: https://www.google.com/maps?cid=7686420279066471984
 mainEntityOfPage:
 description: >
   Drenthe is een provincie in Nederland, gelegen in het noordoosten van het land. Grofweg grenst ze in het noorden aan de provincie Groningen, in het oosten aan de Duitse deelstaat Nedersaksen, in het zuiden aan de provincie Overijssel en in het westen aan de provincie Friesland. De hoofdstad en grootste plaats is Assen; de gemeente met de meeste inwoners is Emmen.
@@ -19,6 +19,7 @@ sameAs:
   - https://www.britannica.com/place/Drenthe
   - https://www.google.com/search?kgmid=/m/0fqww&kponly
   - https://g.co/kg/m/0fqww
+  - https://www.google.com/maps?cid=7686420279066471984
   - https://www.geonames.org/2756631
   - https://www.openstreetmap.org/relation/47540
   - https://www.facebook.com/provinciedrenthe/

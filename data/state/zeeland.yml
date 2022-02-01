@@ -2,7 +2,7 @@ name: Zeeland
 "@type": State
 alternateName:
   - Zeêland
-hasMap:
+hasMap: https://www.google.com/maps?cid=3045648426409828791
 mainEntityOfPage:
 description: >
   Zeeland (Zeeuws: Zeêland) is een provincie in het zuidwesten van Nederland. Zeeland grenst aan de Nederlandse provincies Zuid-Holland en Noord-Brabant en de Belgische provincies West-Vlaanderen, Oost-Vlaanderen en Antwerpen. Zeeland telt 383.488 inwoners (januari 2020), bestuurlijk centrum van de provincie is de hoofdstad Middelburg, tevens de grootste stad in de provincie. De gemeente met de meeste inwoners is echter Terneuzen in Zeeuws-Vlaanderen.
@@ -19,6 +19,7 @@ sameAs:
   - https://www.britannica.com/place/Zeeland-province-Netherlands
   - https://www.google.com/search?kgmid=/m/0dqyc&kponly
   - https://g.co/kg/m/0dqyc
+  - https://www.google.com/maps?cid=3045648426409828791
   - https://www.geonames.org/2744011
   - https://www.openstreetmap.org/relation/47806
   - https://www.facebook.com/provinciezeeland
