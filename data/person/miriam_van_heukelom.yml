@@ -2,4 +2,4 @@ name: Miriam van Heukelom
 "@type": Person
 knows:
   - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
-  
+  - "@id": https://data.kg0.nl/entity/person/john_reid
