@@ -5,6 +5,8 @@ familyName: de Boer
 "birthDate": "1968-02-23"
 "birthPlace":
   - "@id": https://data.kg0.nl/entity/city/zwartsluis
+homeLocation:
+  - "@id": https://data.kg0.nl/entity/city/apeldoorn
 gender: Male
 height: 1.84m
 description: Eduard de Boer is een digitale duizendpoot.

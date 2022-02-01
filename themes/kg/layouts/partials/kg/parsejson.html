@@ -18,12 +18,10 @@
     {{- if not (in $entitylist . ) -}}
       {{- $entitylist = $entitylist | append . -}}
       {{- range . -}}
-        {{- $entitytype := index (split . "/") 0 -}}
-        {{- $entityid   := index (split . "/") 1 -}}
-        {{- $entitydir  := index $data $entitytype -}}
-        {{- $entity     := index $entitydir $entityid -}}
-        {{- $entity     := merge $entity (dict "@id" (print $baseurl $entityid)) -}}
-        {{- $page.Scratch.SetInMap "schema:graph" $entityid $entity -}}
+        {{- $id := print $baseurl . -}}
+        {{- $entity := getJSON (print $id ".json" ) -}}
+        {{- $entity := merge $entity (dict "@id" $id) -}}
+        {{- $page.Scratch.SetInMap "schema:graph" $id $entity -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}
@@ -31,24 +29,20 @@
   {{- with $page.Params.mentions -}}
     {{- $entitylist = $entitylist | append . -}}
     {{- range . -}}
-      {{- $entitytype := index (split . "/") 0 -}}
-      {{- $entityid   := index (split . "/") 1 -}}
-      {{- $entitydir  := index $data $entitytype -}}
-      {{- $entity     := index $entitydir $entityid -}}
-      {{- $entity     := merge $entity (dict "@id" (print $baseurl $entitytype "/"  $entityid)) -}}
-      {{- $page.Scratch.SetInMap "schema:graph" $entityid $entity -}}
+      {{- $id := print $baseurl . -}}
+      {{- $entity := getJSON (print $id ".json" ) -}}
+      {{- $entity := merge $entity (dict "@id" $id) -}}
+      {{- $page.Scratch.SetInMap "schema:graph" $id $entity -}}
     {{- end -}}
   {{- end -}}
 
   {{- with $page.Params.entities -}}
     {{- $entitylist = $entitylist | append . -}}
     {{- range . -}}
-      {{- $entitytype := index (split . "/") 0 -}}
-      {{- $entityid   := index (split . "/") 1 -}}
-      {{- $entitydir  := index $data $entitytype -}}
-      {{- $entity     := index $entitydir $entityid -}}
-      {{- $entity     := merge $entity (dict "@id" (print $baseurl $entitytype "/" $entityid)) -}}
-      {{- $page.Scratch.SetInMap "schema:graph" $entityid $entity -}}
+      {{- $id := print $baseurl . -}}
+      {{- $entity := getJSON (print $id ".json" ) -}}
+      {{- $entity := merge $entity (dict "@id" $id) -}}
+      {{- $page.Scratch.SetInMap "schema:graph" $id $entity -}}
     {{- end -}}
   {{- end -}}
 
@@ -58,7 +52,7 @@
   {{- $page.Scratch.SetInMap "result" "@id" (print $baseurl $entitytype "/" $entityid) -}}
 
   {{- $graph := slice -}}
-  {{- range $value := ($page.Scratch.Get "schema:graph") -}}
+  {{- range $key, $value := ($page.Scratch.Get "schema:graph") -}}
     {{- $graph = $graph | append $value -}}
   {{- end -}}
 
