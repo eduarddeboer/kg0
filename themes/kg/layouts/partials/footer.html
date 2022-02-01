@@ -2,7 +2,3 @@
   {{- $jsonfile := replace .Permalink ".html" ".json" -}}
   Download in other format(s): <a rel="alternate" type="application/ld+json" href="{{- $jsonfile -}}" title="Download as JSON">JSON</a>
 </footer>
-
-{{- if .Page.Params.MainEntity -}}
-  {{- partial "kg/parsejson.html" . -}}
-{{- end -}}
