@@ -1,4 +1,0 @@
----
-slug: amsterdam
-schematype: City
----
