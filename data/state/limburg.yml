@@ -1,0 +1,32 @@
+name: Limburg
+"@type": State
+alternateName:
+  - Limbörg
+  - Lèmburg
+  - Nederlands-Limburg
+hasMap:
+mainEntityOfPage:
+description: >
+  Limburg (Limburgs: Limbörg of Lèmburg), ook wel aangeduid als Nederlands-Limburg ter onderscheiding van Belgisch-Limburg, is een provincie van Nederland, gelegen in het zuidoosten. Limburg is als gewest in zijn huidige vorm pas in 1839 ontstaan en verkreeg zijn provinciale status in 1867. Het is daarmee op Flevoland na de jongste provincie van Nederland. De hoofdstad is Maastricht.
+disambiguatingDescription: >
+  Limburg (Limburgs: Limbörg of Lèmburg), ook wel aangeduid als Nederlands-Limburg ter onderscheiding van Belgisch-Limburg, is een provincie van Nederland, gelegen in het zuidoosten. Limburg is als gewest in zijn huidige vorm pas in 1839 ontstaan en verkreeg zijn provinciale status in 1867. Het is daarmee op Flevoland na de jongste provincie van Nederland. De hoofdstad is Maastricht.
+containedInPlace:
+  "@id": https://data.kg0.nl/entity/country/nederland
+containsPlace:
+sameAs:
+  - https://nl.wikipedia.org/wiki/Limburg_(Nederlandse_provincie)
+  - https://www.wikidata.org/wiki/Q1093
+  - https://viaf.org/viaf/158264550/
+  - https://babelnet.org/synset?id=bn:01106584n&lang=NL
+  - https://www.britannica.com/place/Limburg-province-Netherlands
+  - https://www.google.com/search?kgmid=/m/04q42&kponly
+  - https://g.co/kg/m/04q42
+  - https://www.geonames.org/2751596
+  - https://www.openstreetmap.org/relation/47793
+  - https://www.instagram.com/provincielimburg/
+  - https://twitter.com/limburg
+  - https://www.facebook.com/provincie.limburg/
+  - https://nl.linkedin.com/company/provincielimburg
+  - https://www.youtube.com/channel/UCPsysnglizUu18acYmJEK0Q
+url:
+  - https://www.limburg.nl/

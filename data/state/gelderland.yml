@@ -1,0 +1,34 @@
+name: Gelderland
+"@type": State
+alternateName:
+  - Gelderlaand
+hasMap:
+mainEntityOfPage:
+description: >
+  Gelderland (Nedersaksisch: Gelderlaand) is de grootste provincie van Nederland. De provincie is gelegen in het midden en oosten van Nederland en wordt in het noordoosten begrensd door Overijssel, in het oosten door de Duitse deelstaat Noordrijn-Westfalen, in het zuiden door Limburg en Noord-Brabant, in het uiterste zuidwesten door Zuid-Holland, in het westen door de provincie Utrecht en in het noordwesten door de provincie Flevoland, gescheiden door de Veluwerandmeren. De hoofdstad van Gelderland is Arnhem. De stad met de meeste inwoners is Nijmegen en qua oppervlakte is Apeldoorn de grootste gemeente.
+disambiguatingDescription: >
+  Gelderland (Nedersaksisch: Gelderlaand) is de grootste provincie van Nederland. De provincie is gelegen in het midden en oosten van Nederland en wordt in het noordoosten begrensd door Overijssel, in het oosten door de Duitse deelstaat Noordrijn-Westfalen, in het zuiden door Limburg en Noord-Brabant, in het uiterste zuidwesten door Zuid-Holland, in het westen door de provincie Utrecht en in het noordwesten door de provincie Flevoland, gescheiden door de Veluwerandmeren. De hoofdstad van Gelderland is Arnhem. De stad met de meeste inwoners is Nijmegen en qua oppervlakte is Apeldoorn de grootste gemeente.
+containedInPlace:
+  "@id": https://data.kg0.nl/entity/country/nederland
+containsPlace:
+  - "@id": https://data.kg0.nl/entity/city/apeldoorn
+  - "@id": https://data.kg0.nl/entity/city/wilp
+sameAs:
+  - https://nl.wikipedia.org/wiki/Gelderland
+  - https://www.wikidata.org/wiki/Q775
+  - https://viaf.org/viaf/244523055/
+  - https://isni.oclc.org/xslt/DB=1.2/CMD?ACT=SRCH&IKT=8006&TRM=ISN%3A0000%200004%200624%204858
+  - https://babelnet.org/synset?id=bn:03382399n&lang=NL
+  - https://www.britannica.com/place/Gelderland
+  - https://www.google.com/search?kgmid=/m/0fqxw&kponly
+  - https://g.co/kg/m/0fqxw
+  - https://www.geonames.org/2755634
+  - https://www.openstreetmap.org/relation/47554
+  - https://www.youtube.com/channel/UCJIC7-rr70PFpAYvfmp6DkA
+  - https://twitter.com/provgelderland
+  - https://www.facebook.com/ProvincieGelderland
+  - https://www.instagram.com/provinciegelderland/
+  - https://vimeo.com/gelderland
+  - https://www.linkedin.com/company/provincie-gelderland
+url:
+  - https://www.gelderland.nl/

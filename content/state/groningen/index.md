@@ -1,0 +1,4 @@
+---
+slug: groningen
+schematype: State
+---

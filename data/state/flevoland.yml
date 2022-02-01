@@ -1,0 +1,30 @@
+name: Flevoland
+"@type": State
+alternateName:
+hasMap:
+mainEntityOfPage:
+description: >
+  Flevoland is een provincie in het midden van Nederland. Het is de jongste en qua landoppervlakte de kleinste van de twaalf provincies en bestaat uit de Noordoostpolder en de Flevopolder, beide ontstaan door drooglegging van delen van de voormalige Zuiderzee, met daarbinnen de voormalige eilanden Urk en Schokland. Flevoland wordt in het uiterste noorden begrensd door Friesland, in het noordoosten door Overijssel en in het noordwesten door het Markermeer en het IJsselmeer. In het zuidoosten grenst de provincie aan Gelderland, in het zuidwesten aan Utrecht en Noord-Holland.
+disambiguatingDescription: >
+  Flevoland is een provincie in het midden van Nederland. Het is de jongste en qua landoppervlakte de kleinste van de twaalf provincies en bestaat uit de Noordoostpolder en de Flevopolder, beide ontstaan door drooglegging van delen van de voormalige Zuiderzee, met daarbinnen de voormalige eilanden Urk en Schokland. Flevoland wordt in het uiterste noorden begrensd door Friesland, in het noordoosten door Overijssel en in het noordwesten door het Markermeer en het IJsselmeer. In het zuidoosten grenst de provincie aan Gelderland, in het zuidwesten aan Utrecht en Noord-Holland.
+containedInPlace:
+  "@id": https://data.kg0.nl/entity/country/nederland
+containsPlace:
+sameAs:
+  - https://nl.wikipedia.org/wiki/Flevoland
+  - https://www.wikidata.org/wiki/Q707
+  - https://viaf.org/viaf/132604208/
+  - https://babelnet.org/synset?id=bn:03175539n&lang=NL
+  - https://www.britannica.com/place/Flevoland
+  - https://www.google.com/search?kgmid=/m/0bt5w&kponly
+  - https://g.co/kg/m/0bt5w
+  - https://www.geonames.org/3319179
+  - https://www.openstreetmap.org/relation/47407
+  - https://www.facebook.com/ProvincieFlevoland
+  - https://www.instagram.com/provincie_flevoland/
+  - https://www.linkedin.com/company/provincie-flevoland
+  - https://twitter.com/FlevoNieuws
+  - http://www.youtube.com/user/pr0vincieflevoland
+  - https://www.youtube.com/channel/UCaaJLq8PzHtR-6Gfh2JKrOQ
+url:
+  - https://www.flevoland.nl/

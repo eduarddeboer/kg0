@@ -1,0 +1,4 @@
+---
+slug: gelderland
+schematype: State
+---

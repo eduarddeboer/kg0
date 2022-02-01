@@ -1,0 +1,30 @@
+name: Drenthe
+"@type": State
+alternateName:
+  - Drente
+hasMap:
+mainEntityOfPage:
+description: >
+  Drenthe is een provincie in Nederland, gelegen in het noordoosten van het land. Grofweg grenst ze in het noorden aan de provincie Groningen, in het oosten aan de Duitse deelstaat Nedersaksen, in het zuiden aan de provincie Overijssel en in het westen aan de provincie Friesland. De hoofdstad en grootste plaats is Assen; de gemeente met de meeste inwoners is Emmen.
+disambiguatingDescription: >
+  Drenthe is een provincie in Nederland, gelegen in het noordoosten van het land. Grofweg grenst ze in het noorden aan de provincie Groningen, in het oosten aan de Duitse deelstaat Nedersaksen, in het zuiden aan de provincie Overijssel en in het westen aan de provincie Friesland. De hoofdstad en grootste plaats is Assen; de gemeente met de meeste inwoners is Emmen.
+containedInPlace:
+  "@id": https://data.kg0.nl/entity/country/nederland
+containsPlace:
+sameAs:
+  - https://nl.wikipedia.org/wiki/Drenthe
+  - https://www.wikidata.org/wiki/Q772
+  - https://viaf.org/viaf/138362560/
+  - https://babelnet.org/synset?id=bn:03382375n&lang=NL
+  - https://www.britannica.com/place/Drenthe
+  - https://www.google.com/search?kgmid=/m/0fqww&kponly
+  - https://g.co/kg/m/0fqww
+  - https://www.geonames.org/2756631
+  - https://www.openstreetmap.org/relation/47540
+  - https://www.facebook.com/provinciedrenthe/
+  - https://twitter.com/ProvDrenthe
+  - https://www.youtube.com/user/drenthenl
+  - https://www.youtube.com/channel/UC9KMPAAIVAzHqUyHwvVOAkg
+  - https://www.instagram.com/provdrenthe/
+url:
+  - https://www.provincie.drenthe.nl/

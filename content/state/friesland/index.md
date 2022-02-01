@@ -1,0 +1,4 @@
+---
+slug: friesland
+schematype: State
+---

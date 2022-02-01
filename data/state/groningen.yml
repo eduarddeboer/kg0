@@ -1,0 +1,32 @@
+name: Groningen
+"@type": State
+alternateName:
+  - Grönnen
+  - Grunnen
+  - Grinslân
+hasMap:
+mainEntityOfPage:
+description: >
+  Groningen (Gronings: Grönnen of Grunnen, Fries: Grinslân) is een provincie in het noorden van Nederland met 586.061 inwoners (1 jan 2020), waarvan meer dan een derde in de gelijknamige hoofdstad Groningen woont. Naast het Nederlands is ook het Nedersaksisch (Gronings) erkend als officiële taal in de provincie.
+disambiguatingDescription: >
+  Groningen (Gronings: Grönnen of Grunnen, Fries: Grinslân) is een provincie in het noorden van Nederland met 586.061 inwoners (1 jan 2020), waarvan meer dan een derde in de gelijknamige hoofdstad Groningen woont. Naast het Nederlands is ook het Nedersaksisch (Gronings) erkend als officiële taal in de provincie.
+containedInPlace:
+  "@id": https://data.kg0.nl/entity/country/nederland
+containsPlace:
+sameAs:
+  - https://nl.wikipedia.org/wiki/Groningen_(provincie)
+  - https://www.wikidata.org/wiki/Q752
+  - https://viaf.org/viaf/132460416/
+  - https://babelnet.org/synset?id=bn:03283386n&lang=NL
+  - https://www.britannica.com/place/Groningen-province-Netherlands
+  - https://www.google.com/search?kgmid=/m/0d8rs&kponly
+  - https://g.co/kg/m/0d8rs
+  - https://www.geonames.org/2755249
+  - https://www.openstreetmap.org/relation/47826
+  - http://www.youtube.com/user/provinciegroningen
+  - https://www.youtube.com/channel/UCNVDJ6J4EnRqKdUrxehoxzQ
+  - https://twitter.com/provgroningen
+  - https://www.facebook.com/provinciegroningen/
+  - https://nl.linkedin.com/company/provincie-groningen
+url:
+  - https://www.provinciegroningen.nl/

@@ -3,7 +3,8 @@ name: Zwartsluis
 description: Zwartsluis is een Nederlands dorp en een Nederlandse havenplaats in de gemeente Zwartewaterland, Overijssel, gelegen op de plek waar het Zwarte Water en het Meppelerdiep samenkomen. Op 1 januari 2020 telt het dorp 4.840 inwoners. Iemand uit Zwartsluis wordt in het regionaal dialect een Sluziger of Bleistarte genoemd.
 hasMap: https://www.google.com/maps?cid=4312299813981305240
 containedInPlace:
-  "@id": https://data.kg0.nl/entity/country/nederland
+  - "@id": https://data.kg0.nl/entity/country/nederland
+  - "@id": https://data.kg0.nl/entity/state/overijssel
 sameAs:
   - https://www.wikidata.org/wiki/Q2196318
   - https://nl.wikipedia.org/wiki/Zwartsluis

@@ -1,0 +1,34 @@
+name: Utrecht
+"@type": State
+alternateName:
+hasMap:
+mainEntityOfPage:
+description: >
+  Utrecht is met een landoppervlakte van 1.485 km² de op een na kleinste provincie van Nederland. In 2019 telde de provincie 1.342.158 inwoners.
+  De dichtbevolkte en centraal gelegen provincie wordt deels tot de Randstad gerekend. De hoofdstad en grootste stad is Utrecht (inw. 358.974). Deze stad was het centrum van het bisdom of Sticht Utrecht dat de voorloper was van de huidige provincie.
+disambiguatingDescription: >
+  Utrecht is met een landoppervlakte van 1.485 km² de op een na kleinste provincie van Nederland. In 2019 telde de provincie 1.342.158 inwoners.
+  De dichtbevolkte en centraal gelegen provincie wordt deels tot de Randstad gerekend. De hoofdstad en grootste stad is Utrecht (inw. 358.974). Deze stad was het centrum van het bisdom of Sticht Utrecht dat de voorloper was van de huidige provincie.
+containedInPlace:
+  "@id": https://data.kg0.nl/entity/country/nederland
+containsPlace:
+  - "@id": https://data.kg0.nl/entity/city/utrecht
+sameAs:
+  - https://nl.wikipedia.org/wiki/Utrecht_(provincie)
+  - https://www.wikidata.org/wiki/Q776
+  - https://viaf.org/viaf/242587557/
+  - https://isni.oclc.org/xslt/DB=1.2/CMD?ACT=SRCH&IKT=8006&TRM=ISN%3A0000%200004%200508%203482
+  - https://babelnet.org/synset?id=bn:03286540n&lang=NL
+  - https://www.britannica.com/place/Utrecht-province-Netherlands
+  - https://www.google.com/search?kgmid=/m/0d9rp&kponly
+  - https://g.co/kg/m/0d9rp
+  - https://www.geonames.org/2745909
+  - https://www.openstreetmap.org/relation/47667
+  - https://twitter.com/provutrecht
+  - https://www.facebook.com/provincieutrecht
+  - https://nl.linkedin.com/company/provincie-utrecht
+  - https://www.instagram.com/provincie_utrecht/
+  - https://www.youtube.com/user/provincieutrechtnl
+  - https://www.youtube.com/channel/UC91P96UAHPwlvY27t4PSRIA
+url:
+  - https://www.provincie-utrecht.nl/

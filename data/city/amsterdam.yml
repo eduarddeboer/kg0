@@ -1,7 +1,8 @@
 name: Amsterdam
 "@type": City
 containedInPlace:
-  "@id": https://data.kg0.nl/entity/country/nederland
+  - "@id": https://data.kg0.nl/entity/country/nederland
+  - "@id": https://data.kg0.nl/entity/state/noord_holland
 hasMap: https://www.google.com/maps?cid=7350153097810849677
 sameAs:
   - https://www.wikidata.org/wiki/Q727

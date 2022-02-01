@@ -1,9 +1,8 @@
 name: Hilversum
 "@type": City
-address:
-  - "@id": https://data.kg0.nl/entity/postaladdress/hulp_met_marketing
 containedInPlace:
-  "@id": https://data.kg0.nl/entity/country/nederland
+  - "@id": https://data.kg0.nl/entity/country/nederland
+  - "@id": https://data.kg0.nl/entity/state/noord_holland
 hasMap: https://www.google.com/maps?cid=2026401241318265395
 sameAs:
   - https://www.wikidata.org/wiki/Q9934

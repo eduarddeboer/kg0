@@ -1,11 +1,12 @@
-name: Zwolle
+name: Wilp
 "@type": City
+alternateName:
 description:
 hasMap: https://www.google.com/maps?cid=
 containedInPlace:
   - "@id": https://data.kg0.nl/entity/country/nederland
-  - "@id": https://data.kg0.nl/entity/state/overijssel
+  - "@id": https://data.kg0.nl/entity/state/gelderland
 sameAs:
   -
 url:
-  - 
+  -

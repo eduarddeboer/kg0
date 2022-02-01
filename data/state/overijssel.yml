@@ -1,0 +1,34 @@
+name: Overijssel
+"@type": State
+alternateName:
+  - Oaveriessel
+hasMap:
+mainEntityOfPage:
+description: >
+  Overijssel (Nedersaksisch: Oaveriessel) is een provincie in het oosten van Nederland. De rivier de IJssel vormt in het zuidwesten grotendeels de natuurlijke grens met Gelderland. Overijssel grenst in het noorden aan Drenthe, in het noordoosten aan Nedersaksen, in het zuidoosten aan Noordrijn-Westfalen, in het zuiden en zuidwesten aan de provincie Gelderland, in het uiterste westen aan Flevoland en in het noordwesten aan Friesland. De stad met de meeste inwoners is Enschede. De hoofdstad van Overijssel is Zwolle. De dialecten die in deze provincie worden gesproken, vallen onder het Nedersaksisch.
+disambiguatingDescription: >
+  Overijssel (Nedersaksisch: Oaveriessel) is een provincie in het oosten van Nederland. De rivier de IJssel vormt in het zuidwesten grotendeels de natuurlijke grens met Gelderland. Overijssel grenst in het noorden aan Drenthe, in het noordoosten aan Nedersaksen, in het zuidoosten aan Noordrijn-Westfalen, in het zuiden en zuidwesten aan de provincie Gelderland, in het uiterste westen aan Flevoland en in het noordwesten aan Friesland. De stad met de meeste inwoners is Enschede. De hoofdstad van Overijssel is Zwolle. De dialecten die in deze provincie worden gesproken, vallen onder het Nedersaksisch.
+containedInPlace:
+  "@id": https://data.kg0.nl/entity/country/nederland
+containsPlace:
+  - "@id": https://data.kg0.nl/entity/city/zwartsluis
+  - "@id": https://data.kg0.nl/entity/city/zwolle
+sameAs:
+  - https://nl.wikipedia.org/wiki/Overijssel
+  - https://www.wikidata.org/wiki/Q773
+  - https://viaf.org/viaf/140703482/
+  - https://isni.oclc.org/xslt/DB=1.2/CMD?ACT=SRCH&IKT=8006&TRM=ISN%3A0000%200004%200624%207290
+  - https://babelnet.org/synset?id=bn:03382389n&lang=NL
+  - https://www.britannica.com/place/Overijssel
+  - https://www.google.com/search?kgmid=/m/0fqxc&kponly
+  - https://g.co/kg/m/0fqxc
+  - https://www.geonames.org/2748838
+  - https://www.openstreetmap.org/relation/47608
+  - https://twitter.com/provoverijssel
+  - https://www.facebook.com/provincieoverijssel
+  - https://www.linkedin.com/company/provincie-overijssel/
+  - https://www.youtube.com/user/ProvOverijssel
+  - https://www.instagram.com/provincieoverijssel/
+  - https://www.youtube.com/channel/UC6aGnVMtfEXaHu7rKym9FaA
+url:
+  - https://www.overijssel.nl/

@@ -1,0 +1,4 @@
+---
+slug: zeeland
+schematype: State
+---

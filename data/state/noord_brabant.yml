@@ -1,0 +1,34 @@
+name: Noord-Brabant
+"@type": State
+alternateName:
+  - Broabant
+  - Brabant
+hasMap:
+mainEntityOfPage:
+description: >
+  Noord-Brabant of kortweg Brabant (Brabants: Broabant) is een provincie in het zuiden van Nederland. De hoofdstad is 's-Hertogenbosch. Noord-Brabant telt circa 2,5 miljoen inwoners en komt daarmee op de derde plaats in Nederland. In oppervlakte is de provincie na Gelderland de grootste. Noord-Brabant kent een relatief sterke verstedelijking, waarbij men spreekt van de 'Brabantse stedenrij'. Eindhoven is met ruim 235.000 ingezetenen de grootste stad en is tevens de grootste Nederlandse gemeente buiten de Randstad.
+disambiguatingDescription: >
+  Noord-Brabant of kortweg Brabant (Brabants: Broabant) is een provincie in het zuiden van Nederland. De hoofdstad is 's-Hertogenbosch. Noord-Brabant telt circa 2,5 miljoen inwoners en komt daarmee op de derde plaats in Nederland. In oppervlakte is de provincie na Gelderland de grootste. Noord-Brabant kent een relatief sterke verstedelijking, waarbij men spreekt van de 'Brabantse stedenrij'. Eindhoven is met ruim 235.000 ingezetenen de grootste stad en is tevens de grootste Nederlandse gemeente buiten de Randstad.
+containedInPlace:
+  "@id": https://data.kg0.nl/entity/country/nederland
+containsPlace:
+sameAs:
+  - https://nl.wikipedia.org/wiki/Noord-Brabant
+  - https://www.wikidata.org/wiki/Q1101
+  - https://viaf.org/viaf/154714874/
+  - https://isni.oclc.org/xslt/DB=1.2/CMD?ACT=SRCH&IKT=8006&TRM=ISN%3A0000%200001%202298%204168
+  - https://babelnet.org/synset?id=bn:03354212n&lang=NL
+  - https://www.britannica.com/place/Noord-Brabant
+  - https://www.google.com/search?kgmid=/m/0fcrg&kponly
+  - https://g.co/kg/m/0fcrg
+  - https://www.geonames.org/2749990
+  - https://www.openstreetmap.org/relation/47696
+  - https://www.pinterest.com/noordbrabant/
+  - https://twitter.com/Brabant
+  - https://www.facebook.com/provincienoordbrabant
+  - https://www.instagram.com/provincienoordbrabant/
+  - https://nl.linkedin.com/company/provincie-noord-brabant
+  - https://www.youtube.com/user/brabant
+  - https://www.youtube.com/channel/UCl2L6-YWS2fpXr9y2oXFdtA
+url:
+  - https://www.brabant.nl/
