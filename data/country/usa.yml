@@ -10,8 +10,6 @@ description: >
   De Verenigde Staten, officieel de Verenigde Staten van Amerika, afgekort VS, vaak Amerika genoemd, is een federatie van 50 staten en het District of Columbia, grotendeels in Noord-Amerika gelegen.
 disambiguatingDescription:
 hasMap: https://maps.google.com/?cid=2034423694542944066
-containsPlace:
-  - "@id": https://mbl.kg0.nl/entity/state/ny
 sameAs:
   - https://en.wikipedia.org/wiki/United_States
   - https://www.wikidata.org/wiki/Q30
