@@ -1,5 +1,6 @@
 name: ${SEARCH}
 '"@type"': ${TYPE}
+alternateName:
 hasMap:
 mainEntityOfPage:
 disambiguatingDescription:

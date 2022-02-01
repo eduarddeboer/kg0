@@ -6,6 +6,8 @@ description: >
 url:
   - https://www.npostart.nl/de-rijdende-rechter/15-10-2019/KN_1709887
 mainEntityOfPage: https://www.npostart.nl/de-rijdende-rechter/15-10-2019/KN_1709887
+inLanguage:
+  - "@id": https://data.kg0.nl/entity/language/nederlands
 image: https://images.npo.nl/header/2560x1440/1279075.jpg
 partOfSeries: https://kro-ncrv.nl/programmas/de-rijdende-rechter
 name: "'Laat je niet kisten' (De Rijdende Rechter)"

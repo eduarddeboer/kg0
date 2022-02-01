@@ -11,7 +11,7 @@
   {{- $fieldname := $field -}}
   {{- $setvalue  := $value -}}
   {{- if eq $field "@type" -}}
-    {{- $setvalue := print $schema $value -}}
+    {{- $setvalue := print $value -}}
     {{- $page.Scratch.SetInMap "json" $fieldname $setvalue -}}
   {{- else -}}
     {{- if eq $field "sameAs" -}}
@@ -19,16 +19,16 @@
       {{- range $value -}}
         {{- $sameas = $sameas | append . -}}
       {{- end -}}
-      {{- $page.Scratch.SetInMap "json" (print $schema "sameAs") $sameas -}}
+      {{- $page.Scratch.SetInMap "json" (print "sameAs") $sameas -}}
     {{- else -}}
       {{- if eq $field "url" -}}
         {{- $url := slice -}}
         {{- range $value -}}
           {{- $url = $url | append . -}}
         {{- end -}}
-        {{- $page.Scratch.SetInMap "json" (print $schema "url") $url -}}
+        {{- $page.Scratch.SetInMap "json" (print "url") $url -}}
       {{- else -}}
-        {{- $fieldname := print $schema $field -}}
+        {{- $fieldname := print $field -}}
         {{- $page.Scratch.SetInMap "json" $fieldname $setvalue -}}
       {{- end -}}
     {{- end -}}
