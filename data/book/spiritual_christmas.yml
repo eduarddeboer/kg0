@@ -2,7 +2,7 @@ name: Spiritual Christmas
 "@type": Book
 inLanguage:
   - "@id": https://data.kg0.nl/entity/language/engels
-    "@type": http://schema.org/Language
+    "@type": https://schema.org/Language
 isbn: 9789067324571
 bookEdition:
 author:

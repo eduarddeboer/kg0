@@ -9,7 +9,7 @@ description:
 disambiguatingDescription:
 subjectOf:
   - "@id": https://www.youtube.com/watch?v=VnIERp3rFqk
-    "@type": http://schema.org/Movie
+    "@type": https://schema.org/Movie
     url: https://www.youtube.com/watch?v=VnIERp3rFqk
 knows:
   - "@id": https://data.kg0.nl/entity/person/eduard_de_boer

@@ -2,7 +2,7 @@ name: Spirituele Pasen en Pinksteren
 "@type": Book
 inLanguage:
   - "@id": https://data.kg0.nl/entity/language/nederlands
-    "@type": http://schema.org/Language
+    "@type": https://schema.org/Language
 isbn: 9789067324465
 bookEdition:
 author:

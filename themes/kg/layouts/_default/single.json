@@ -1,12 +1,12 @@
 {{- $page := .Page -}}
-{{- $schema := "http://schema.org/" -}}
+{{- $schema := "https://schema.org/" -}}
 {{- partial "getjson.html" . -}}
 {{- $entity    := $page.Scratch.Get (lower $page.Params.schematype) -}}
 {{- $setvalue  := "" -}}
 {{- $fieldname := "" -}}
 {{- $id        := $page.Scratch.Get "@id" -}}
 
-{{- $page.Scratch.SetInMap "json" "@context" "http://schema.org" -}}
+{{- $page.Scratch.SetInMap "json" "@context" "https://schema.org" -}}
 {{- range $field, $value := $entity -}}
   {{- $fieldname := $field -}}
   {{- $setvalue  := $value -}}

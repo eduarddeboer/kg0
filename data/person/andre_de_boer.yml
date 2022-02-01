@@ -22,37 +22,37 @@ disambiguatingDescription: >
   In zijn boeken benadrukt hij dat er zoiets bestaat als een universele wijsheidsleer die tot uitdrukking komt in allerlei authentieke spirituele tradities.
 knowsLanguage:
   - "@id": https://data.kg0.nl/entity/language/nederlands
-    "@type": http://schema.org/Language
+    "@type": https://schema.org/Language
   - "@id": https://data.kg0.nl/entity/language/engels
-    "@type": http://schema.org/Language
+    "@type": https://schema.org/Language
   - "@id": https://data.kg0.nl/entity/language/duits
-    "@type": http://schema.org/Language
+    "@type": https://schema.org/Language
 knowsAbout:
   - "@id": https://data.kg0.nl/entity/book/mysterien_en_fakkeldragers_van_het_rozenkruis
-    "@type": http://schema.org/Book
+    "@type": https://schema.org/Book
   - "@id": https://data.kg0.nl/entity/book/mysterien_en_lofzangen_van_god_kosmos_mens
-    "@type": http://schema.org/Book
+    "@type": https://schema.org/Book
   - "@id": https://data.kg0.nl/entity/book/mysterien_en_symbolen_van_de_ziel
-    "@type": http://schema.org/Book
+    "@type": https://schema.org/Book
   - "@id": https://data.kg0.nl/entity/book/mysterien_van_geboorte_leven_en_dood
-    "@type": http://schema.org/Book
+    "@type": https://schema.org/Book
   - "@id": https://data.kg0.nl/entity/book/mysteries_and_challenges_of_birth_life_and_death
-    "@type": http://schema.org/Book
+    "@type": https://schema.org/Book
   - "@id": https://data.kg0.nl/entity/book/mysteries_and_symbols_of_the_soul
-    "@type": http://schema.org/Book
+    "@type": https://schema.org/Book
   - "@id": https://data.kg0.nl/entity/book/spiritual_christmas
-    "@type": http://schema.org/Book
+    "@type": https://schema.org/Book
   - "@id": https://data.kg0.nl/entity/book/spiritual_easter_and_pentecost
-    "@type": http://schema.org/Book
+    "@type": https://schema.org/Book
   - "@id": https://data.kg0.nl/entity/book/spirituele_kerst
-    "@type": http://schema.org/Book
+    "@type": https://schema.org/Book
   - "@id": https://data.kg0.nl/entity/book/spirituele_pasen_en_pinksteren
-    "@type": http://schema.org/Book
+    "@type": https://schema.org/Book
 sibling:
   - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
 subjectOf:
   - "@id": https://data.kg0.nl/entity/audioobject/20181215_interview_met_andre_de_boer
-    "@type": http://schema.org/AudioObject
+    "@type": https://schema.org/AudioObject
 worksFor:
   - "@id": https://data.kg0.nl/entity/newsmediaorganization/rozekruis_pers
 sameAs:

@@ -2,7 +2,7 @@ name: Mysteriën en lofzangen van God, kosmos, mens
 "@type": Book
 inLanguage:
   - "@id": https://data.kg0.nl/entity/language/nederlands
-    "@type": http://schema.org/Language
+    "@type": https://schema.org/Language
 isbn: 9789067324663
 bookEdition:
 author:

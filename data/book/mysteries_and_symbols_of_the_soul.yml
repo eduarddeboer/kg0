@@ -2,7 +2,7 @@ name: Mysteries and Symbols of the Soul
 "@type": Book
 inLanguage:
   - "@id": https://data.kg0.nl/entity/language/engels
-    "@type": http://schema.org/Language
+    "@type": https://schema.org/Language
 isbn: 9789067324717
 bookEdition:
 author:
