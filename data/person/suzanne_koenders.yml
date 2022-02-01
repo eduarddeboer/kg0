@@ -1,0 +1,13 @@
+name: Suzanne Kuners of Koenders
+"@type": Person
+alternateName:
+  - Suzanne Koenders
+"birthDate": "1974-01-31"
+"birthPlace":
+  - "@id": https://data.kg0.nl/entity/city/utrecht
+homeLocation:
+  - "@id": https://data.kg0.nl/entity/city/apeldoorn
+colleague:
+  - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
+worksFor:
+  - "@id": https://data.kg0.nl/entity/localbusiness/allround_fotografie

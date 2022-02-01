@@ -20,6 +20,7 @@ knowsLanguage:
 sibling:
   - "@id": https://data.kg0.nl/entity/person/andre_de_boer
 knows:
+  - "@id": https://data.kg0.nl/entity/person/suzanne_koenders
   - "@id": https://data.kg0.nl/entity/person/mart_stevens
   - "@id": https://data.kg0.nl/entity/person/evan_buytendijk
   - "@id": https://data.kg0.nl/entity/person/michael_reed
@@ -79,7 +80,7 @@ sameAs:
   - https://whitespark.ca/blog/author/eduarddeboer/
   - https://www.insideview.biz/about/
   - https://www.360gambia.com/author/eduard-de-boer/
-  - https://en.gravatar.com/elrdeboer
+  - https://nl.gravatar.com/elrdeboer
   - https://www.wikidata.org/wiki/Q65610641
   - https://www.crunchbase.com/person/eduard-de-boer
   - https://foursquare.com/elrdeboer

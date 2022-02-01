@@ -8,6 +8,8 @@ Paginate = 100
 disableKinds = ["taxonomy", "taxonomyTerm", "section", "home" ]
 uglyURLs = true
 
+ignoreErrors = ["error-remote-getjson"]
+
 [outputs]
   home = [ "html", "json" ]
   page = [ "html", "json" ]

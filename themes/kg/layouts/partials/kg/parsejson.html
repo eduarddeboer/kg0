@@ -20,8 +20,17 @@
       {{- range . -}}
         {{- $id := print $baseurl . -}}
         {{- $entity := getJSON (print $id ".json" ) -}}
-        {{- $entity := merge $entity (dict "@id" $id) -}}
-        {{- $page.Scratch.SetInMap "schema:graph" $id $entity -}}
+        {{- if $entity -}}
+          {{- $entity := merge $entity (dict "@id" $id) -}}
+          {{- $page.Scratch.SetInMap "schema:graph" $id $entity -}}
+        {{- else -}}
+          {{- $entitytype := index (split . "/") 0 -}}
+          {{- $entityid   := index (split . "/") 1 -}}
+          {{- $entitydir  := index $data $entitytype -}}
+          {{- $entity     := index $entitydir $entityid -}}
+          {{- $entity     := merge $entity (dict "@id" (print $baseurl $entitytype "/" $entityid)) -}}
+          {{- $page.Scratch.SetInMap "schema:graph" $entityid $entity -}}
+        {{- end -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}
@@ -31,8 +40,17 @@
     {{- range . -}}
       {{- $id := print $baseurl . -}}
       {{- $entity := getJSON (print $id ".json" ) -}}
-      {{- $entity := merge $entity (dict "@id" $id) -}}
-      {{- $page.Scratch.SetInMap "schema:graph" $id $entity -}}
+      {{- if $entity -}}
+        {{- $entity := merge $entity (dict "@id" $id) -}}
+        {{- $page.Scratch.SetInMap "schema:graph" $id $entity -}}
+      {{- else -}}
+        {{- $entitytype := index (split . "/") 0 -}}
+        {{- $entityid   := index (split . "/") 1 -}}
+        {{- $entitydir  := index $data $entitytype -}}
+        {{- $entity     := index $entitydir $entityid -}}
+        {{- $entity     := merge $entity (dict "@id" (print $baseurl $entitytype "/" $entityid)) -}}
+        {{- $page.Scratch.SetInMap "schema:graph" $entityid $entity -}}
+      {{- end -}}
     {{- end -}}
   {{- end -}}
 
@@ -41,8 +59,17 @@
     {{- range . -}}
       {{- $id := print $baseurl . -}}
       {{- $entity := getJSON (print $id ".json" ) -}}
-      {{- $entity := merge $entity (dict "@id" $id) -}}
-      {{- $page.Scratch.SetInMap "schema:graph" $id $entity -}}
+      {{- if $entity -}}
+        {{- $entity := merge $entity (dict "@id" $id) -}}
+        {{- $page.Scratch.SetInMap "schema:graph" $id $entity -}}
+      {{- else -}}
+        {{- $entitytype := index (split . "/") 0 -}}
+        {{- $entityid   := index (split . "/") 1 -}}
+        {{- $entitydir  := index $data $entitytype -}}
+        {{- $entity     := index $entitydir $entityid -}}
+        {{- $entity     := merge $entity (dict "@id" (print $baseurl $entitytype "/" $entityid)) -}}
+        {{- $page.Scratch.SetInMap "schema:graph" $entityid $entity -}}
+      {{- end -}}
     {{- end -}}
   {{- end -}}
 

@@ -1,0 +1,55 @@
+name: Allround Fotografie
+"@type": LocalBusiness
+additionalType:
+  - https://www.wikidata.org/entity/Q33231
+  - https://www.wikidata.org/entity/Q2441379
+  - https://nl.wikipedia.org/wiki/Fotograaf
+  - https://nl.wikipedia.org/wiki/Huwelijksfotograaf
+  - https://www.google.com/search?kgmid=/m/0lgw7&kponly
+  - http://g.co/kg/m/0lgw7
+telephone: 087-7841336
+isicv4: 54192
+naics: 7420
+description: "Professionele fotograaf uit Apeldoorn, werkzaam in heel Nederland en daarbuiten. Neem contact op voor een trouwfotograaf, bedrijfsfotograaf of een gecertificeerde Google Maps StreetView fotograaf."
+disambiguatingDescription: "Professionele fotograaf uit Apeldoorn, werkzaam in heel Nederland en daarbuiten. Neem contact op voor een trouwfotograaf, bedrijfsfotograaf of een gecertificeerde Google StreetView fotograaf."
+openingHours:
+  - "Mo-Fr 08:30-21:00"
+  - "Sa 09:00-17:00"
+foundingDate : 01-06-2006
+foundingLocation:
+  "@id": https://data.kg0.nl/entity/city/apeldoorn
+hasMap: https://www.google.com/maps?cid=9233983297400222251
+employee:
+  - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
+  - "@id": https://data.kg0.nl/entity/person/suzanne_koenders
+sameAs:
+  - https://www.google.com/maps?cid=9233983297400222251
+  - https://www.google.com/search?kgmid=/g/1vl9qqvt
+  - https://www.google.com/search?kgmid=/g/1vl9qqvt&kponly
+  - http://g.co/kg/g/1vl9qqvt
+  - https://www.facebook.com/allroundfotografie
+  - https://www.twitter.com/allroundfoto
+  - https://www.instagram.com/allroundfotografie
+  - https://www.youtube.com/user/allroundfotografie
+  - https://nl.linkedin.com/company/allround-fotografie.com
+  - https://fotograaf.business.site
+  - https://www.detelefoongids.nl/allround-fotografie/19645627/5-1/
+  - https://www.telefoonboek.nl/bedrijven/t3521733/apeldoorn/allround-fotografie/
+  - https://www.yelp.com/biz/allround-fotografie-apeldoorn
+  - https://foursquare.com/allroundfoto
+  - https://www.pinterest.com/allroundfoto/
+  - https://www.flickr.com/photos/allround-fotografie/
+  - https://nl.locale.online/allround-fotografie-1467001147.html
+  - https://www.openingstijden.com/o3521733/allround-fotografie-ketelboetershoek-14-apeldoorn/
+  - https://www.doggo.nl/bedrijf/6502/allround-fotografie-apeldoorn/
+  - https://vymaps.com/NL/Allround-Fotografie-10150279132512222/
+  - https://www.fotograaf-info.nl/allround-fotografie
+  - https://rocketreach.co/allround-fotografiecom-profile_b4257fe9fee82dfc
+  - https://www.bedrijven-index.nl/bedrijfsinformatie/1001291926-Allround-Fotografie-Apeldoorn
+  - https://indebuurt.nl/apeldoorn/gids/allround-fotografie/
+  - https://lo-co.nl/partners/allround-fotografie-apeldoorn/
+  - https://vind-open.nl/apeldoorn/allround-fotografie-130386
+  - https://www.infobel.com/nl/netherlands/allround_fotografie/apeldoorn/NL100431118-0877841336/businessdetails.aspx
+  - https://www.nederlandinbedrijf.nl/Bedrijf/931611/Foto-Allround-Fotografie/Ketelboetershoek-14-7328JE-Apeldoorn-087-7841336
+url:
+  - https://www.allround-fotografie.com/
