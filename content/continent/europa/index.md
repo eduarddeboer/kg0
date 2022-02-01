@@ -1,0 +1,4 @@
+---
+slug: europa
+schematype: Continent
+---

@@ -1,5 +1,7 @@
 name: Nederland
 "@type": Country
+containedInPlace:
+  "@id": https://data.kg0.nl/entity/continent/europa
 containsPlace:
   - "@id": https://data.kg0.nl/entity/city/zwartsluis
   - "@id": https://data.kg0.nl/entity/city/apeldoorn

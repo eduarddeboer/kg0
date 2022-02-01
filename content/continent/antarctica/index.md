@@ -1,0 +1,4 @@
+---
+slug: antarctica
+schematype: Continent
+---

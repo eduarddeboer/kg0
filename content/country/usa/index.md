@@ -1,0 +1,4 @@
+---
+slug: usa
+schematype: Country
+---

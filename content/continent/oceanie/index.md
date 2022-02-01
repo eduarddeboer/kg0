@@ -1,0 +1,4 @@
+---
+slug: oceanie
+schematype: Continent
+---

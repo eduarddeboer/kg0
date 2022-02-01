@@ -1,0 +1,13 @@
+name: Antarctica
+"@type": Continent
+mainEntityOfPage:
+description: >
+  Antarctica is het continent rond de zuidpool van de Aarde. De benaming Antarctica komt af van ant-arktikos, een Grieks woord voor "tegenover het noorden". Met een oppervlakte van 14 miljoen vierkante kilometer is het het vijfde grootste continent, na Eurazië, Afrika, Noord-Amerika en Zuid-Amerika, en voor Australië.
+hasMap: https://www.google.com/maps?cid=7949625334562758773
+sameAs:
+  - https://nl.wikipedia.org/wiki/Antarctica
+  - https://www.wikidata.org/wiki/Q51
+  - https://www.google.com/search?kgmid=/m/0jfx
+  - http://g.co/kg/m/0jfx
+  - https://www.geonames.org/6255152/antarctica.html
+  - https://www.google.com/maps?cid=7949625334562758773

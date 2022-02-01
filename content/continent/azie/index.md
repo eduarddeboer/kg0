@@ -1,0 +1,4 @@
+---
+slug: azie
+schematype: Continent
+---

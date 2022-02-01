@@ -1,0 +1,4 @@
+---
+slug: afrika
+schematype: Continent
+---
