@@ -9,8 +9,19 @@ homeLocation:
   - "@id": https://data.kg0.nl/entity/city/apeldoorn
 gender: Male
 height: 1.84m
-description: Eduard de Boer is een digitale duizendpoot.
-disambiguatingDescription:
+mainEntityOfPage: https://www.allround-fotografie.com/over-ons/eduard/
+description: >
+  Eduard de Boer (geboren 23 februari 1968 te Zwartsluis) is een fotograaf uit Apeldoorn, die niet alleen in Nederland fotografeert, maar ook internationaal fotoreportages maakt.
+
+  Voor Google Street View heeft Eduard in Gambia (Afrika) de virtuele tours voor Google Street View gemaakt van zo goed als alle resorts, hotels, restaurants, bars en andere bedrijven aldaar. In Nederland staan honderden bedrijven op Google Street View dankzij 360º fotoshoots van Eduard. Als hij in Nederland is, maakt hij ook frequent gezinsreportages, bedrijfsreportages, babyreportages en trouwreportages.
+
+  Eduard is daarnaast werkzaam als ReputatieCoach voor bedrijven, waarbij hij hen niet alleen helpt met het verbeteren van hun online zichtbaarheid door middel van de fotografie, maar ook met hun online vindbaarheid en online reputatie.
+disambiguatingDescription: >
+  Eduard de Boer (geboren 23 februari 1968 te Zwartsluis) is een fotograaf uit Apeldoorn, die niet alleen in Nederland fotografeert, maar ook internationaal fotoreportages maakt.
+
+  Voor Google Street View heeft Eduard in Gambia (Afrika) de virtuele tours voor Google Street View gemaakt van zo goed als alle resorts, hotels, restaurants, bars en andere bedrijven aldaar. In Nederland staan honderden bedrijven op Google Street View dankzij 360º fotoshoots van Eduard. Als hij in Nederland is, maakt hij ook frequent gezinsreportages, bedrijfsreportages, babyreportages en trouwreportages.
+
+  Eduard is daarnaast werkzaam als ReputatieCoach voor bedrijven, waarbij hij hen niet alleen helpt met het verbeteren van hun online zichtbaarheid door middel van de fotografie, maar ook met hun online vindbaarheid en online reputatie.
 image: https://www.gravatar.com/avatar/a218861c60b4a06728ed76086a0bf335.jpg?s=1200
 knowsLanguage:
   - "@id": https://data.kg0.nl/entity/language/nederlands

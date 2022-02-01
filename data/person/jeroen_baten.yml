@@ -7,8 +7,12 @@ birthPlace: Eindhoven
 mainEntityOfPage: https://www.jeroenbaten.nl/mijn-geschiedenis/
 disambiguatingDescription:
 gender: Male
+knowsLanguage:
+  - "@id": https://data.kg0.nl/entity/language/nederlands
+  - "@id": https://data.kg0.nl/entity/language/engels
 knows:
   - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
+  - "@id": https://data.kg0.nl/entity/person/suzanne_koenders
 sameAs:
   - https://www.wikidata.org/wiki/Q107188537
   - https://viaf.org/viaf/285105958/
