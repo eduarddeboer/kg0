@@ -113,7 +113,7 @@ sameAs:
   - https://www.google.com/search?kgmid=/g/11f0mj848l
   - https://www.google.com/search?kgmid=/g/11f0mj848l&kponly
   - https://www.google.com/search?q=eduard+de+boer&kgmid=/g/11f0mj848l&pkonly
-  - http://g.co/kg/g/11f0mj848l
+  - https://g.co/kg/g/11f0mj848l
   - https://whitespark.ca/blog/author/eduarddeboer/
   - https://www.insideview.biz/about/
   - https://www.360gambia.com/author/eduard-de-boer/

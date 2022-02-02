@@ -2,5 +2,30 @@ name: Canada
 "@type": Country
 containedInPlace:
   "@id": https://data.kg0.nl/entity/continent/noord_amerika
+hasMap: https://www.google.com/maps?cid=11054286679119728549
+description: >
+  Canada is een land in het noorden van Noord-Amerika. In het zuiden wordt het door de Verenigde Staten begrensd en in het oosten door de Atlantische Oceaan. De westelijke grens wordt gevormd door de Amerikaanse staat Alaska en de Grote Oceaan en in het noorden ligt de Noordelijke IJszee. De hoofdstad van Canada is Ottawa en de grootste steden zijn Toronto, Montreal, Vancouver en Calgary. Canada is met een oppervlakte van 9.984.670 km² op Rusland na het grootste land ter wereld.
+disambiguatingDescription: >
+  Canada is een land in het noorden van Noord-Amerika. In het zuiden wordt het door de Verenigde Staten begrensd en in het oosten door de Atlantische Oceaan. De westelijke grens wordt gevormd door de Amerikaanse staat Alaska en de Grote Oceaan en in het noorden ligt de Noordelijke IJszee. De hoofdstad van Canada is Ottawa en de grootste steden zijn Toronto, Montreal, Vancouver en Calgary. Canada is met een oppervlakte van 9.984.670 km² op Rusland na het grootste land ter wereld.
 sameAs:
+  - https://nl.wikipedia.org/wiki/Canada
+  - https://www.wikidata.org/wiki/Q16
+  - https://viaf.org/viaf/136600716/
+  - https://isni.oclc.org/xslt/DB=1.2/CMD?ACT=SRCH&IKT=8006&TRM=ISN%3A0000%200001%202238%205050
+  - https://babelnet.org/synset?id=bn:00015115n&lang=NL
+  - https://www.britannica.com/place/Canada
+  - https://foursquare.com/v/canada/53110ea0e4b03443dd848a6f
+  - https://www.google.com/search?kgmid=/m/0d060g
+  - https://www.geonames.org/6251999
+  - https://kbpedia.org/knowledge-graph/reference-concept/?uri=Canada
+  - https://www.openstreetmap.org/relation/1428125
+  - https://www.tripadvisor.com/Tourism-g153339-Canada-Vacations.html
+  - https://www.google.com/search?kgmid=/m/0d060g&kponly
+  - https://g.co/kg/m/0d060g
+  - https://www.google.com/maps?cid=11054286679119728549
   - https://www.bbc.co.uk/things/4bc7e064-44b5-4f17-870c-8bf927f0c9bd
+  - https://twitter.com/Canada
+  - https://www.cia.gov/the-world-factbook/countries/canada/
+  - http://vocabularies.unesco.org/browser/thesaurus/en/page/concept766
+url:
+  - https://www.canada.ca/
