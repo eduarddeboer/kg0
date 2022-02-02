@@ -1,12 +1,25 @@
 name: Wilp
 "@type": City
 alternateName:
-description:
-hasMap: https://www.google.com/maps?cid=
+description: >
+  Wilp is een dorp in de gemeente Voorst in de Nederlandse provincie Gelderland. Het is een dijkdorp aan de bandijk van de rivier de IJssel. De afstand tot de rivier is bij een gemiddelde waterstand ongeveer twee kilometer. Tussen rivier en dorp ligt nog het agrarisch gebied de Wilpse Klei.
+disambiguatingDescription: >
+  Wilp is een dorp in de gemeente Voorst in de Nederlandse provincie Gelderland. Het is een dijkdorp aan de bandijk van de rivier de IJssel. De afstand tot de rivier is bij een gemiddelde waterstand ongeveer twee kilometer. Tussen rivier en dorp ligt nog het agrarisch gebied de Wilpse Klei.
+hasMap: https://www.google.com/maps?cid=15607403864224935768
 containedInPlace:
   - "@id": https://data.kg0.nl/entity/country/nederland
   - "@id": https://data.kg0.nl/entity/state/gelderland
 sameAs:
-  -
+  - https://nl.wikipedia.org/wiki/Wilp
+  - https://www.wikidata.org/wiki/Q2183764
+  - https://bag.basisregistraties.overheid.nl/bag/id/woonplaats/2613
+  - https://www.google.com/search?kgmid=/m/02pjwtb&kponly
+  - https://g.co/kg/m/02pjwtb
+  - https://www.google.com/maps?cid=15607403864224935768
+  - https://www.geonames.org/2744373
+  - https://www.openstreetmap.org/relation/2713055
+  - https://www.facebook.com/VVV-gemeente-Voorst-Online-851453768286912/
+  - https://www.instagram.com/bezoekvoorst/
 url:
-  -
+  - https://www.bezoekvoorst.nl/ontdek-voorst/dorpskernen/wilp
+  - https://www.plaatsengids.nl/wilp

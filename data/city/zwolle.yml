@@ -1,11 +1,27 @@
 name: Zwolle
 "@type": City
-description:
-hasMap: https://www.google.com/maps?cid=
+description: >
+  Zwolle is de hoofdstad van de Nederlandse provincie Overijssel. Zwolle ligt aan het Zwarte Water en de Overijsselse Vecht en is via het Zwolle-IJsselkanaal verbonden met de IJssel. De stad ligt in de regio IJsseldelta. De gemeente telt 130.173 inwoners (1 juli 2021) en is qua inwonersaantal de negentiende gemeente van Nederland. Zwolle heeft een oppervlakte van 111,33 km².
+disambiguatingDescription: >
+  Zwolle is de hoofdstad van de Nederlandse provincie Overijssel. Zwolle ligt aan het Zwarte Water en de Overijsselse Vecht en is via het Zwolle-IJsselkanaal verbonden met de IJssel. De stad ligt in de regio IJsseldelta. De gemeente telt 130.173 inwoners (1 juli 2021) en is qua inwonersaantal de negentiende gemeente van Nederland. Zwolle heeft een oppervlakte van 111,33 km².
+hasMap: https://www.google.com/maps?cid=14775003215159967372
 containedInPlace:
   - "@id": https://data.kg0.nl/entity/country/nederland
   - "@id": https://data.kg0.nl/entity/state/overijssel
 sameAs:
-  -
+  - https://nl.wikipedia.org/wiki/Zwolle
+  - https://www.wikidata.org/wiki/Q793
+  - https://babelnet.org/synset?id=bn:03406620n&lang=EN
+  - https://www.britannica.com/place/Zwolle
+  - https://www.google.com/search?kgmid=/m/0f_qq&kponly
+  - https://g.co/kg/m/0f_qq
+  - https://www.google.com/maps?cid=14775003215159967372
+  - https://www.geonames.org/2743476
+  - https://www.openstreetmap.org/relation/414720
+  - https://bag.basisregistraties.overheid.nl/bag/id/woonplaats/3560
+  - https://www.facebook.com/Gem.Zwolle
+  - https://twitter.com/Gemeente_Zwolle
+  - http://www.instagram.com/gemeentezwolle
+  - http://nl.linkedin.com/company/gemeente-zwolle
 url:
-  - 
+  - https://www.zwolle.nl/
