@@ -4,6 +4,7 @@ description: Edmonton is de hoofdstad van de Canadese provincie Alberta. Het is 
 hasMap: https://www.google.com/maps?cid=4692645311401039197
 containedInPlace:
   - "@id": https://data.kg0.nl/entity/country/canada
+  - "@id": https://data.kg0.nl/entity/continent/noord_amerika
 sameAs:
   - https://www.wikidata.org/wiki/Q2096
   - https://nl.wikipedia.org/wiki/Edmonton
@@ -15,7 +16,10 @@ sameAs:
   - http://www.thecanadianencyclopedia.ca/en/article/edmonton
   - https://www.pinterest.com/cityofedmonton/
   - https://twitter.com/CityofEdmonton
+  - http://www.facebook.com/cityofedmonton
+  - https://www.youtube.com/user/CityEdmonton
   - https://www.youtube.com/channel/UCzK7H1hHGf5mC84mSVfMhGw
+  - http://www.linkedin.com/company/city-of-edmonton
   - https://www.openstreetmap.org/relation/2564500
   - https://www.google.com/maps?cid=4692645311401039197
   - http://vocab.getty.edu/page/tgn/7013032

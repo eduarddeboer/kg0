@@ -1,9 +1,9 @@
-name:
-"@type": Movie
+name: ${SEARCH}
+'"@type"': Movie
 actor:
   -
 director:
 dateCreated:
 image:
 sameAs:
-  - 
+  -

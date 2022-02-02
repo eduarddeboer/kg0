@@ -1,5 +1,5 @@
-name: 
-"@type": AudioObject
+name: ${SEARCH}
+'"@type"': AudioObject
 mainEntityOfPage:
 contentUrl:
 description:

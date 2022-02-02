@@ -3,8 +3,18 @@ name: Nederland
 containedInPlace:
   "@id": https://data.kg0.nl/entity/continent/europa
 containsPlace:
-  - "@id": https://data.kg0.nl/entity/city/zwartsluis
-  - "@id": https://data.kg0.nl/entity/city/apeldoorn
+  - "@id": https://data.kg0.nl/entity/state/drenthe
+  - "@id": https://data.kg0.nl/entity/state/flevoland
+  - "@id": https://data.kg0.nl/entity/state/friesland
+  - "@id": https://data.kg0.nl/entity/state/gelderland
+  - "@id": https://data.kg0.nl/entity/state/groningen
+  - "@id": https://data.kg0.nl/entity/state/limburg
+  - "@id": https://data.kg0.nl/entity/state/noord_brabant
+  - "@id": https://data.kg0.nl/entity/state/noord_holland
+  - "@id": https://data.kg0.nl/entity/state/overijssel
+  - "@id": https://data.kg0.nl/entity/state/utrecht
+  - "@id": https://data.kg0.nl/entity/state/zeeland
+  - "@id": https://data.kg0.nl/entity/state/zuid_holland
 hasMap: https://www.google.com/maps?cid=12943756335953808031
 sameAs:
   - https://www.wikidata.org/wiki/Q55

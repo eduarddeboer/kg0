@@ -1,7 +1,7 @@
 name: ${SEARCH}
 '"@type"': ${TYPE}
 alternateName:
-hasMap:
+hasMap: https://www.google.com/maps?cid=
 mainEntityOfPage:
 disambiguatingDescription:
 containedInPlace:

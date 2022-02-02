@@ -3,7 +3,7 @@ name: ${SEARCH}
 alternateName:
 description:
 telephone:
-hasMap:
+hasMap: https://www.google.com/maps?cid=
 alumni:
   - "@id":
 sameAs:
