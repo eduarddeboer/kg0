@@ -17,7 +17,6 @@
   {{- if eq $field "@type" -}}
     <tr>
       <td><a href="https://www.w3.org/1999/02/22-rdf-syntax-ns#type">rdf:type</a></td>
-      <td about="{{ $id }}"><a rel="rdf:type" href="{{- $schema -}}{{- . -}}">schema:{{ . }}</a></td>
     </tr>
     {{- $setvalue := print $schema $value -}}
     {{- $page.Scratch.SetInMap "json" $fieldname $setvalue -}}
