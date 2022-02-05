@@ -32,12 +32,6 @@
           <td><a href="http://schema.org/{{- $field -}}">schema:{{- $field -}}</a></td>
           <td about="{{- $id -}}"><a rel="schema:{{- $field -}}" href="{{- . -}}">{{- . -}}</a></td>
         </tr>
-        {{- if eq $field "sameAs" -}}
-        <tr>
-          <td><a href="http://www.w3.org/2002/07/owl#sameAs">owl:{{- $field -}}</a></td>
-          <td about="{{- $id -}}"><a rel="owl:{{- $field -}}" href="{{- . -}}">{{- . -}}</a></td>
-        </tr>
-        {{- end -}}
         {{- else -}}
         <tr>
           <td><a href="http://schema.org/{{- $field -}}">schema:{{- $field -}}</a></td>
