@@ -1,6 +1,6 @@
 name: Mike Blumenthal
 "@type": Person
-gender: https://schema.org/Male
+gender: http://schema.org/Male
 description: >
   Mike Blumenthal has been involved in local search and local marketing strategy for almost 20 years. He explores the online to offline local ecosystem and helps business understand it and benefit from it.
 disambiguatingDescription: >

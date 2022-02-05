@@ -2,7 +2,7 @@ name: Mysteriën van geboorte, leven en dood
 "@type": Book
 inLanguage:
   - "@id": https://data.kg0.nl/entity/language/nederlands
-    "@type": https://schema.org/Language
+    "@type": http://schema.org/Language
 isbn: 9789067324618
 bookEdition:
 author:

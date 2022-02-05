@@ -5,7 +5,7 @@ familyName: de Boer
 birthDate: "1963-09-04"
 birthPlace:
   "@id": https://data.kg0.nl/entity/city/zwartsluis
-gender: https://schema.org/Male
+gender: http://schema.org/Male
 description: >
   André de Boer (1963) studeerde in 1987 af als chemicus aan de Universiteit Utrecht. Hij werkte twee jaar als redacteur en daarna jarenlang als zelfstandig publicist voor vakbladen op het gebied van technologie, innovatie en management. In samenwerking met anderen ontwikkelde hij online-programma’s voor Pentagram boekwinkel en schreef hij meerdere boeken van de Spirituele teksten bibliotheek van Rozekruis Pers.
 disambiguatingDescription: >
@@ -22,37 +22,37 @@ disambiguatingDescription: >
   In zijn boeken benadrukt hij dat er zoiets bestaat als een universele wijsheidsleer die tot uitdrukking komt in allerlei authentieke spirituele tradities.
 knowsLanguage:
   - "@id": https://data.kg0.nl/entity/language/nederlands
-    "@type": https://schema.org/Language
+    "@type": http://schema.org/Language
   - "@id": https://data.kg0.nl/entity/language/engels
-    "@type": https://schema.org/Language
+    "@type": http://schema.org/Language
   - "@id": https://data.kg0.nl/entity/language/duits
-    "@type": https://schema.org/Language
+    "@type": http://schema.org/Language
 knowsAbout:
   - "@id": https://data.kg0.nl/entity/book/mysterien_en_fakkeldragers_van_het_rozenkruis
-    "@type": https://schema.org/Book
+    "@type": http://schema.org/Book
   - "@id": https://data.kg0.nl/entity/book/mysterien_en_lofzangen_van_god_kosmos_mens
-    "@type": https://schema.org/Book
+    "@type": http://schema.org/Book
   - "@id": https://data.kg0.nl/entity/book/mysterien_en_symbolen_van_de_ziel
-    "@type": https://schema.org/Book
+    "@type": http://schema.org/Book
   - "@id": https://data.kg0.nl/entity/book/mysterien_van_geboorte_leven_en_dood
-    "@type": https://schema.org/Book
+    "@type": http://schema.org/Book
   - "@id": https://data.kg0.nl/entity/book/mysteries_and_challenges_of_birth_life_and_death
-    "@type": https://schema.org/Book
+    "@type": http://schema.org/Book
   - "@id": https://data.kg0.nl/entity/book/mysteries_and_symbols_of_the_soul
-    "@type": https://schema.org/Book
+    "@type": http://schema.org/Book
   - "@id": https://data.kg0.nl/entity/book/spiritual_christmas
-    "@type": https://schema.org/Book
+    "@type": http://schema.org/Book
   - "@id": https://data.kg0.nl/entity/book/spiritual_easter_and_pentecost
-    "@type": https://schema.org/Book
+    "@type": http://schema.org/Book
   - "@id": https://data.kg0.nl/entity/book/spirituele_kerst
-    "@type": https://schema.org/Book
+    "@type": http://schema.org/Book
   - "@id": https://data.kg0.nl/entity/book/spirituele_pasen_en_pinksteren
-    "@type": https://schema.org/Book
+    "@type": http://schema.org/Book
 sibling:
   - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
 subjectOf:
   - "@id": https://data.kg0.nl/entity/audioobject/20181215_interview_met_andre_de_boer
-    "@type": https://schema.org/AudioObject
+    "@type": http://schema.org/AudioObject
 worksFor:
   - "@id": https://data.kg0.nl/entity/newsmediaorganization/rozekruis_pers
 sameAs:

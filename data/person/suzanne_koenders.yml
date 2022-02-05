@@ -2,7 +2,7 @@ name: Suzanne Kuners of Koenders
 "@type": Person
 alternateName:
   - Suzanne Koenders
-gender: https://schema.org/Female
+gender: http://schema.org/Female
 "birthDate": "1974-01-31"
 "birthPlace":
   - "@id": https://data.kg0.nl/entity/city/utrecht

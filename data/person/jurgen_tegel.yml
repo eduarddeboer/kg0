@@ -1,13 +1,13 @@
 name: Jurgen Tegel
 "@type": Person
-gender: https://schema.org/Male
+gender: http://schema.org/Male
 knowsLanguage:
   - "@id": https://data.kg0.nl/entity/language/nederlands
-    "@type": https://schema.org/Language
+    "@type": http://schema.org/Language
   - "@id": https://data.kg0.nl/entity/language/engels
-    "@type": https://schema.org/Language
+    "@type": http://schema.org/Language
   - "@id": https://data.kg0.nl/entity/language/duits
-    "@type": https://schema.org/Language
+    "@type": http://schema.org/Language
 knows:
   - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
 sameAs:

@@ -1,6 +1,6 @@
 name: Michael Reed
 "@type": Person
-gender: https://schema.org/Male
+gender: http://schema.org/Male
 knows:
   - "@id": https://data.kg0.nl/entity/person/eduard_de_boer
   - "@id": https://data.kg0.nl/entity/person/suzanne_koenders

@@ -2,7 +2,7 @@ name: Mysteries and Challenges of Birth, Life and Death
 "@type": Book
 inLanguage:
   - "@id": https://data.kg0.nl/entity/language/engels
-    "@type": https://schema.org/Language
+    "@type": http://schema.org/Language
 isbn: 9789067324816
 bookEdition:
 author:

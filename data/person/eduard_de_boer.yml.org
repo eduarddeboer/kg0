@@ -5,7 +5,7 @@ familyName: de Boer
 "birthDate": "1968-02-23"
 "birthPlace":
   - "@id": https://data.kg0.nl/entity/city/zwartsluis
-gender: https://schema.org/Male
+gender: http://schema.org/Male
 description: Eduard de Boer is een digitale duizendpoot.
 disambiguatingDescription:
 image: https://www.gravatar.com/avatar/a218861c60b4a06728ed76086a0bf335.jpg?s=1200

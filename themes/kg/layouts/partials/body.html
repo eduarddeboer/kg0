@@ -1,5 +1,5 @@
 {{- $page := .Page -}}
-{{- $schema := "https://schema.org/" -}}
+{{- $schema := "http://schema.org/" -}}
 {{- $entity    := $page.Scratch.Get (lower $page.Params.schematype) -}}
 {{- $setvalue  := "" -}}
 {{- $fieldname := "" -}}
@@ -29,7 +29,7 @@
     {{- range $thisvalue -}}
       {{- if or (in . "http://") (in . "https") -}}
         <tr>
-          <td><a href="https://schema.org/{{- $field -}}">schema:{{- $field -}}</a></td>
+          <td><a href="http://schema.org/{{- $field -}}">schema:{{- $field -}}</a></td>
           <td about="{{- $id -}}"><a rel="schema:{{- $field -}}" href="{{- . -}}">{{- . -}}</a></td>
         </tr>
         {{- if eq $field "sameAs" -}}
@@ -40,7 +40,7 @@
         {{- end -}}
         {{- else -}}
         <tr>
-          <td><a href="https://schema.org/{{- $field -}}">schema:{{- $field -}}</a></td>
+          <td><a href="http://schema.org/{{- $field -}}">schema:{{- $field -}}</a></td>
           <td about="{{- $id -}}">
             {{- $type := (printf "%T" .) -}}
             {{- if eq $type "map[string]interface {}" -}}
@@ -58,7 +58,7 @@
     {{- end -}}
   {{- else -}}
     {{- if $value -}}
-      <tr><td><a href="https://schema.org/{{- $field -}}">schema:{{- $field -}}</a></td>
+      <tr><td><a href="http://schema.org/{{- $field -}}">schema:{{- $field -}}</a></td>
         {{- if or (in . "http://") (in . "https") -}}
           <td about="{{- $id -}}"><a rel="schema:{{- $field -}}" href="{{- . -}}">{{- . -}}</a></td>
         {{- else -}}

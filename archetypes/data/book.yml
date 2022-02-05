@@ -2,7 +2,7 @@ name: ${SEARCH}
 '"@type"': ${TYPE}
 inLanguage:
   - '"@id"': https://data.kg0.nl/entity/language/nederlands
-    '"@type"': https://schema.org/Language
+    '"@type"': http://schema.org/Language
 isbn:
 bookEdition:
 author:

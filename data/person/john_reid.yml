@@ -5,7 +5,7 @@ disambiguatingDescription: John Reid (Utrecht, 19 februari 1968) is een Nederlan
 alternateName:
   - Rijdende Rechter
   - De Rijdende Rechter
-gender: https://schema.org/Male
+gender: http://schema.org/Male
 birthDate: 1968-02-19
 birthPlace:
   "@id": https://data.kg0.nl/entity/city/utrecht

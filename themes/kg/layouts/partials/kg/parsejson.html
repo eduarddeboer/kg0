@@ -84,7 +84,7 @@
   {{- end -}}
 
   {{- $result := $page.Scratch.Get "result" -}}
-  {{- $finalgraph := (dict "@context" "https://schema.org" "@graph" (slice $result $graph)) -}}
+  {{- $finalgraph := (dict "@context" "http://schema.org" "@graph" (slice $result $graph)) -}}
 
   {{- $output := $finalgraph | jsonify | safeJS -}}
   {{- $output -}}

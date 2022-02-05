@@ -19,7 +19,7 @@ foundingDate: 2016
 legalName: "Hulp met Marketing"
 areaServed:
   - "@id": https://data.kg0.nl/entity/country/nederland
-    "@type": https://schema.org/Country
+    "@type": http://schema.org/Country
 employee:
   "@id": https://data.kg0.nl/entity/person/danny_moons
 sameAs:
