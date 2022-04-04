@@ -1,5 +1,9 @@
 name: ${SEARCH}
 '"@type"': ${TYPE}
+description: >
+
+disambiguatingDescription: >
+
 inLanguage:
   - '"@id"': https://data.kg0.nl/entity/language/nederlands
     '"@type"': http://schema.org/Language

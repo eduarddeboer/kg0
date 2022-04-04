@@ -4,9 +4,15 @@ givenName:
 familyName:
 birthDate:
 birthPlace:
+homeLocation:
 mainEntityOfPage:
-description:
-disambiguatingDescription:
+description: >
+
+disambiguatingDescription: >
+
 gender:
+knows:
+image:
+knowsLanguage:
 sameAs:
 url:

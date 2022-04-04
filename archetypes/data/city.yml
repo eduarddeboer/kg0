@@ -3,7 +3,10 @@ name: ${SEARCH}
 alternateName:
 hasMap: https://www.google.com/maps?cid=
 mainEntityOfPage:
-disambiguatingDescription:
+description: >
+
+disambiguatingDescription: >
+
 containedInPlace:
 containsPlace:
 sameAs:

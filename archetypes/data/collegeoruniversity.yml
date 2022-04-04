@@ -1,7 +1,10 @@
 name: ${SEARCH}
 '"@type"': ${TYPE}
 alternateName:
-description:
+description: >
+
+disambiguatingDescription: >
+
 telephone:
 hasMap: https://www.google.com/maps?cid=
 alumni:

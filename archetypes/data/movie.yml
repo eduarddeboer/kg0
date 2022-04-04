@@ -1,5 +1,6 @@
 name: ${SEARCH}
 '"@type"': Movie
+mainEntityOfPage:
 actor:
   -
 director:
